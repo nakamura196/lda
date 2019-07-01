@@ -6,9 +6,19 @@
         "@value": "yanesen/10/018"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_10_018.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "街並点描−the観音仲見世通り−渡辺肉店主人に聞く"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-008.jpg"
       }
     ]
   }

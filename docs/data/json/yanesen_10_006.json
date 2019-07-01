@@ -6,9 +6,19 @@
         "@value": "yanesen/10/006"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_10_006.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "特集/おいしい豆腐の買える町−酒屋へ三里、豆腐屋へ二里"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-003.jpg"
       }
     ]
   }

@@ -6,9 +6,19 @@
         "@value": "yanesen/10/010"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_10_010.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "うまい豆腐のつくり方"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-005.jpg"
       }
     ]
   }

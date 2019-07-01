@@ -1,14 +1,29 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_028.json",
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "江黒美代子"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/07/028"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_07_028.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "富士の見える坂(富士見坂　江黒美代子さん）"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-07/yanesen-07-012.jpg"
       }
     ]
   }

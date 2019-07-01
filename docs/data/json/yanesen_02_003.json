@@ -6,9 +6,19 @@
         "@value": "yanesen/02/003"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_003.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "サトウハチロー記念館"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-002.jpg"
       }
     ]
   }

@@ -6,9 +6,24 @@
         "@value": "yanesen/02/011"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_011.json"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "銭湯"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "世界湯"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-004.jpg"
       }
     ]
   }

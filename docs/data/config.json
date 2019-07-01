@@ -9,6 +9,26 @@
             "label": "ID",
             "value": "dcterms:identifier",
             "type": "in"
+        },
+        {
+            "label": "Creator",
+            "value": "dcterms:creator",
+            "type": "in"
+        },
+        {
+            "label": "Subject",
+            "value": "dcterms:subject",
+            "type": "in"
+        },
+        {
+            "label": "Publisher",
+            "value": "dcterms:publisher",
+            "type": "in"
+        },
+        {
+            "label": "Created",
+            "value": "dcterms:created",
+            "type": "in"
         }
     ],
     "title": {

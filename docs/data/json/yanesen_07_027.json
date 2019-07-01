@@ -1,14 +1,29 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_027.json",
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "武藤高"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/07/027"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_07_027.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "日暮里・富士見坂−撮影・武藤高（武藤書店主人）"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-07/yanesen-07-012.jpg"
       }
     ]
   }

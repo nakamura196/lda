@@ -1,14 +1,44 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_003.json",
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "団子坂の地名由来と菊まつりの興隆"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/01/003"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@value": "ロバート・フォーチュン『江戸と北京』(1863)"
+      }
+    ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_003.json"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "35.725117, 139.760964"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "団子坂,地名由来,千駄木山,森鴎外,千朶山房,ロバート・フォーチュン"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "団子坂の菊人形"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-01/yanesen-01-002.jpg"
       }
     ]
   }

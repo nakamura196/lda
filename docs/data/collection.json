@@ -8,7 +8,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_009.json",
             "@type": "sc:Manifest",
-            "label": "懐しの豆腐屋さん"
+            "label": "懐しの豆腐屋さん",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-004.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -21,7 +22,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_006.json",
             "@type": "sc:Manifest",
-            "label": "特集/高村家の人々−光太郎智恵子はたぐひなき夢をきづきてむかし此処に住みにき"
+            "label": "特集/高村家の人々−光太郎智恵子はたぐひなき夢をきづきてむかし此処に住みにき",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-003.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -41,7 +43,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_010.json",
             "@type": "sc:Manifest",
-            "label": "智恵子の谷中付近"
+            "label": "智恵子の谷中付近",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-005.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -124,7 +127,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_033.json",
             "@type": "sc:Manifest",
-            "label": "著者自筆広告No.7−諏訪優「芥川龍之介の俳句を歩く」踏青社"
+            "label": "著者自筆広告No.7−諏訪優「芥川龍之介の俳句を歩く」踏青社",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -144,7 +148,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_025.json",
             "@type": "sc:Manifest",
-            "label": "情報トピックス"
+            "label": "情報トピックス",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -155,10 +160,10 @@
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_03_030.json",
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_06_045.json",
             "@type": "sc:Manifest",
-            "label": "谷中銀座商店街主催の谷中七福神めぐり",
-            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-03/yanesen-03-016.jpg"
+            "label": "いいコーヒーは繁華街では飲めない−ラ・ゲール、庵",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-06/yanesen-06-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -185,7 +190,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_005.json",
             "@type": "sc:Manifest",
-            "label": "目次"
+            "label": "目次",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -254,7 +260,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_013.json",
             "@type": "sc:Manifest",
-            "label": "ジョルダン・サンド氏のアメリカの豆腐事情"
+            "label": "ジョルダン・サンド氏のアメリカの豆腐事情",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-006.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -288,13 +295,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_030.json",
             "@type": "sc:Manifest",
-            "label": "ひろみの一日入門−⑥谷中「澤の屋」旅館　ウェルカムトゥーサワノヤ−"
+            "label": "ひろみの一日入門−⑥谷中「澤の屋」旅館　ウェルカムトゥーサワノヤ−",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-017.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_030.json",
             "@type": "sc:Manifest",
-            "label": "拝啓「こんにちはあいそめ」の皆様！"
+            "label": "拝啓「こんにちはあいそめ」の皆様！",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -321,7 +330,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_029.json",
             "@type": "sc:Manifest",
-            "label": "おめでとうございます"
+            "label": "おめでとうございます",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -348,25 +358,29 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_026.json",
             "@type": "sc:Manifest",
-            "label": "望月次作さん"
+            "label": "望月次作さん",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-014.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_026.json",
             "@type": "sc:Manifest",
-            "label": "D坂の殺人事件を推理する"
+            "label": "D坂の殺人事件を推理する",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_027.json",
             "@type": "sc:Manifest",
-            "label": "街の発展と富士銀行"
+            "label": "街の発展と富士銀行",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_027.json",
             "@type": "sc:Manifest",
-            "label": "フロへはいる散歩−見晴しの湯資料"
+            "label": "フロへはいる散歩−見晴しの湯資料",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -414,19 +428,22 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_028.json",
             "@type": "sc:Manifest",
-            "label": "ご近所情報"
+            "label": "ご近所情報",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_031.json",
             "@type": "sc:Manifest",
-            "label": "情報トピックス"
+            "label": "情報トピックス",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_031.json",
             "@type": "sc:Manifest",
-            "label": "谷根千味のグランプリ　本当においしいお店−アイスは大正ロマンの味・芋甚"
+            "label": "谷根千味のグランプリ　本当においしいお店−アイスは大正ロマンの味・芋甚",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-017.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -453,7 +470,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_012.json",
             "@type": "sc:Manifest",
-            "label": "おいしく豆腐を食べるには"
+            "label": "おいしく豆腐を食べるには",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-006.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -522,7 +540,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_004.json",
             "@type": "sc:Manifest",
-            "label": "日暮里・本行寺　川原史敬"
+            "label": "日暮里・本行寺　川原史敬",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -556,7 +575,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_024.json",
             "@type": "sc:Manifest",
-            "label": "この街にこんな人　〈根津〉が大好きな桐谷エリザベスさん"
+            "label": "この街にこんな人　〈根津〉が大好きな桐谷エリザベスさん",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-014.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -590,7 +610,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_032.json",
             "@type": "sc:Manifest",
-            "label": "患者さんの失敗"
+            "label": "患者さんの失敗",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -624,7 +645,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_046.json",
             "@type": "sc:Manifest",
-            "label": "文化ガイド"
+            "label": "文化ガイド",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -658,7 +680,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_011.json",
             "@type": "sc:Manifest",
-            "label": "林町一五五番地"
+            "label": "林町一五五番地",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-006.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -699,19 +722,22 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_007.json",
             "@type": "sc:Manifest",
-            "label": "仏師 光雲"
+            "label": "仏師 光雲",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-003.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_008.json",
             "@type": "sc:Manifest",
-            "label": "豆腐・雑学ノート"
+            "label": "豆腐・雑学ノート",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-003.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_003.json",
             "@type": "sc:Manifest",
-            "label": "正月　下駄の音　金子邦生版画展"
+            "label": "正月　下駄の音　金子邦生版画展",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -766,7 +792,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_042.json",
             "@type": "sc:Manifest",
-            "label": "文化ガイド"
+            "label": "文化ガイド",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -786,7 +813,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_015.json",
             "@type": "sc:Manifest",
-            "label": "得する豆腐情報"
+            "label": "得する豆腐情報",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-006.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -806,13 +834,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_036.json",
             "@type": "sc:Manifest",
-            "label": "確蓮房通信"
+            "label": "確蓮房通信",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_036.json",
             "@type": "sc:Manifest",
-            "label": "谷中の赤とんぼ−野沢延行"
+            "label": "谷中の赤とんぼ−野沢延行",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-019.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -825,7 +855,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_039.json",
             "@type": "sc:Manifest",
-            "label": "弥生・夢境庵（そば）　画と文／石田良介"
+            "label": "弥生・夢境庵（そば）　画と文／石田良介",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-019.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -873,13 +904,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_020.json",
             "@type": "sc:Manifest",
-            "label": "町の小さな博物館−江戸の時を刻む町"
+            "label": "町の小さな博物館−江戸の時を刻む町",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-012.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_020.json",
             "@type": "sc:Manifest",
-            "label": "円朝グラフィティ（続）"
+            "label": "円朝グラフィティ（続）",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-008.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -920,7 +953,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_016.json",
             "@type": "sc:Manifest",
-            "label": "根津小学校創立90年によせて−12，339人の卒業生へ"
+            "label": "根津小学校創立90年によせて−12，339人の卒業生へ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-010.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -947,13 +981,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_041.json",
             "@type": "sc:Manifest",
-            "label": "おたより"
+            "label": "おたより",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-019.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_019.json",
             "@type": "sc:Manifest",
-            "label": "手仕事を訪ねて⑤−郷土玩具・京楽堂"
+            "label": "手仕事を訪ねて⑤−郷土玩具・京楽堂",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-009.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -987,7 +1023,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_035.json",
             "@type": "sc:Manifest",
-            "label": "坂のある風景−池の端・三段坂　棚谷勲"
+            "label": "坂のある風景−池の端・三段坂　棚谷勲",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1014,7 +1051,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_023.json",
             "@type": "sc:Manifest",
-            "label": "ご近所調査報告−続・山車の話−谷中町の山車は早稲田の演博にあり"
+            "label": "ご近所調査報告−続・山車の話−谷中町の山車は早稲田の演博にあり",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-013.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1083,7 +1121,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_022.json",
             "@type": "sc:Manifest",
-            "label": "谷根千の新名所/日暮里・本行寺−一茶と山頭火、本行寺にて邂逅"
+            "label": "谷根千の新名所/日暮里・本行寺−一茶と山頭火、本行寺にて邂逅",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-012.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1103,7 +1142,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_034.json",
             "@type": "sc:Manifest",
-            "label": "このまちに住んでよかったこと−古川恭子"
+            "label": "このまちに住んでよかったこと−古川恭子",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1144,13 +1184,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_018.json",
             "@type": "sc:Manifest",
-            "label": "街並点描−the観音仲見世通り−渡辺肉店主人に聞く"
+            "label": "街並点描−the観音仲見世通り−渡辺肉店主人に聞く",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-008.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_040.json",
             "@type": "sc:Manifest",
-            "label": "かおりのエプロンサイクリング2−夏バテ防止特集"
+            "label": "かおりのエプロンサイクリング2−夏バテ防止特集",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1177,7 +1219,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_017.json",
             "@type": "sc:Manifest",
-            "label": "ギャラリー谷根千路上観察"
+            "label": "ギャラリー谷根千路上観察",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-010.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1218,7 +1261,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_001.json",
             "@type": "sc:Manifest",
-            "label": "エッチング−千駄木・大給坂　棚谷勲"
+            "label": "エッチング−千駄木・大給坂　棚谷勲",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-001.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1231,13 +1275,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_021.json",
             "@type": "sc:Manifest",
-            "label": "一、不定時法は体によいのだ−上口等さんに聞く"
+            "label": "一、不定時法は体によいのだ−上口等さんに聞く",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-012.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_021.json",
             "@type": "sc:Manifest",
-            "label": "ギャラリー・谷中墓地周辺（補遺と訂正を兼ねて）"
+            "label": "ギャラリー・谷中墓地周辺（補遺と訂正を兼ねて）",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-010.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1299,19 +1345,22 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_038.json",
             "@type": "sc:Manifest",
-            "label": "おたより"
+            "label": "おたより",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-019.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_037.json",
             "@type": "sc:Manifest",
-            "label": "この間に会えた人"
+            "label": "この間に会えた人",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_037.json",
             "@type": "sc:Manifest",
-            "label": "編集後記"
+            "label": "編集後記",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1331,7 +1380,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_014.json",
             "@type": "sc:Manifest",
-            "label": "引き売りレポート"
+            "label": "引き売りレポート",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-006.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1414,7 +1464,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_002.json",
             "@type": "sc:Manifest",
-            "label": "口上"
+            "label": "口上",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1427,7 +1478,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_022.json",
             "@type": "sc:Manifest",
-            "label": "谷中根津千駄木ちず"
+            "label": "谷中根津千駄木ちず",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-011.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1440,7 +1492,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_022.json",
             "@type": "sc:Manifest",
-            "label": "二、昔、奇人ありき−噂の上口愚朗氏のこと"
+            "label": "二、昔、奇人ありき−噂の上口愚朗氏のこと",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-014.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1481,13 +1534,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_034.json",
             "@type": "sc:Manifest",
-            "label": "耳よりなお知らせ"
+            "label": "耳よりなお知らせ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_034.json",
             "@type": "sc:Manifest",
-            "label": "情報トピックス"
+            "label": "情報トピックス",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1507,7 +1562,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_017.json",
             "@type": "sc:Manifest",
-            "label": "谷根千手作り豆腐の買える店全リスト"
+            "label": "谷根千手作り豆腐の買える店全リスト",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-007.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1534,7 +1590,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_018.json",
             "@type": "sc:Manifest",
-            "label": "谷中根津千駄木ちず"
+            "label": "谷中根津千駄木ちず",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-011.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1561,7 +1618,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_040.json",
             "@type": "sc:Manifest",
-            "label": "編集後記"
+            "label": "編集後記",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1609,7 +1667,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_001.json",
             "@type": "sc:Manifest",
-            "label": "三谷一馬「江戸商売図絵」青蛙房刊より"
+            "label": "三谷一馬「江戸商売図絵」青蛙房刊より",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-001.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1643,7 +1702,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_021.json",
             "@type": "sc:Manifest",
-            "label": "谷中根津千駄木ちず"
+            "label": "谷中根津千駄木ちず",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-011.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1684,7 +1744,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_037.json",
             "@type": "sc:Manifest",
-            "label": "トヨタ財団研究助成ニュース①谷中・上野桜木の親しまれる環境調査より（一）"
+            "label": "トヨタ財団研究助成ニュース①谷中・上野桜木の親しまれる環境調査より（一）",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1711,7 +1772,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_038.json",
             "@type": "sc:Manifest",
-            "label": "「身近な環境コンクール」に「上野・谷根千研究会」が通る"
+            "label": "「身近な環境コンクール」に「上野・谷根千研究会」が通る",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1724,13 +1786,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_038.json",
             "@type": "sc:Manifest",
-            "label": "お知らせ"
+            "label": "お知らせ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_043.json",
             "@type": "sc:Manifest",
-            "label": "著者自筆広告No.6−藤森照信「建築探偵の冒険」筑摩書房"
+            "label": "著者自筆広告No.6−藤森照信「建築探偵の冒険」筑摩書房",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-019.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1757,7 +1821,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_014.json",
             "@type": "sc:Manifest",
-            "label": "この街にこんな人《千駄木》の光太郎研究家・北川太一さん"
+            "label": "この街にこんな人《千駄木》の光太郎研究家・北川太一さん",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-008.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1812,7 +1877,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_002.json",
             "@type": "sc:Manifest",
-            "label": "口上"
+            "label": "口上",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1839,7 +1905,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_003.json",
             "@type": "sc:Manifest",
-            "label": "第18回　日展"
+            "label": "第18回　日展",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1873,7 +1940,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_015.json",
             "@type": "sc:Manifest",
-            "label": "ご近所調査報告−谷中の山車はナゼ越生に行ったのか"
+            "label": "ご近所調査報告−谷中の山車はナゼ越生に行ったのか",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-009.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1900,13 +1968,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_042.json",
             "@type": "sc:Manifest",
-            "label": "夢うらなひ"
+            "label": "夢うらなひ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-019.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_039.json",
             "@type": "sc:Manifest",
-            "label": "吉村昭先生からカンパ、椎名誠さんからお手紙をいただく"
+            "label": "吉村昭先生からカンパ、椎名誠さんからお手紙をいただく",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1919,7 +1989,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_039.json",
             "@type": "sc:Manifest",
-            "label": "文化ガイド"
+            "label": "文化ガイド",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1967,7 +2038,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_036.json",
             "@type": "sc:Manifest",
-            "label": "光太郎・智恵子補遺①−林町はこんな町だった"
+            "label": "光太郎・智恵子補遺①−林町はこんな町だった",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-017.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -1980,7 +2052,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_020.json",
             "@type": "sc:Manifest",
-            "label": "谷根千の風景−谷中墓地の自然−野鳥"
+            "label": "谷根千の風景−谷中墓地の自然−野鳥",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-010.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2091,7 +2164,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_041.json",
             "@type": "sc:Manifest",
-            "label": "お知らせ"
+            "label": "お知らせ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2109,6 +2183,13 @@
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_019.json",
+            "@type": "sc:Manifest",
+            "label": "円朝はわれらの同時代人・後編−谷根千円朝めぐり",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-008.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_003.json",
             "@type": "sc:Manifest",
             "label": "サトウハチロー記念館",
@@ -2118,7 +2199,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_019.json",
             "@type": "sc:Manifest",
-            "label": "ギャラリー谷根千路上観察"
+            "label": "ギャラリー谷根千路上観察",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-012.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2131,7 +2213,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_016.json",
             "@type": "sc:Manifest",
-            "label": "元気印の豆腐です"
+            "label": "元気印の豆腐です",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-007.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2151,13 +2234,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_035.json",
             "@type": "sc:Manifest",
-            "label": "おたより"
+            "label": "おたより",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-019.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_035.json",
             "@type": "sc:Manifest",
-            "label": "最近のうごき"
+            "label": "最近のうごき",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2198,7 +2283,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_023.json",
             "@type": "sc:Manifest",
-            "label": "ギャラリー・谷中墓地周辺（補遺と訂正を兼ねて）"
+            "label": "ギャラリー・谷中墓地周辺（補遺と訂正を兼ねて）",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-012.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2211,7 +2297,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_023.json",
             "@type": "sc:Manifest",
-            "label": "鴎外特集補遺の補遺−色部義明氏に聞く"
+            "label": "鴎外特集補遺の補遺−色部義明氏に聞く",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2252,7 +2339,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_028.json",
             "@type": "sc:Manifest",
-            "label": "谷中のカエル−野沢延行（獣医・谷中在住）"
+            "label": "谷中のカエル−野沢延行（獣医・谷中在住）",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2265,7 +2353,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_028.json",
             "@type": "sc:Manifest",
-            "label": "記憶の団子坂周辺"
+            "label": "記憶の団子坂周辺",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2285,7 +2374,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_027.json",
             "@type": "sc:Manifest",
-            "label": "確蓮房通信"
+            "label": "確蓮房通信",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2305,7 +2395,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_031.json",
             "@type": "sc:Manifest",
-            "label": "範子の失敗"
+            "label": "範子の失敗",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2346,7 +2437,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_045.json",
             "@type": "sc:Manifest",
-            "label": "お知らせ"
+            "label": "お知らせ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2387,7 +2479,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_012.json",
             "@type": "sc:Manifest",
-            "label": "二五番地のアトリエ"
+            "label": "二五番地のアトリエ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-006.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2414,7 +2507,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_004.json",
             "@type": "sc:Manifest",
-            "label": "弥生・くらやみ坂−鹿野琢見"
+            "label": "弥生・くらやみ坂−鹿野琢見",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2434,13 +2528,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_024.json",
             "@type": "sc:Manifest",
-            "label": "谷中・永久寺−剪画・文／石田良介"
+            "label": "谷中・永久寺−剪画・文／石田良介",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_024.json",
             "@type": "sc:Manifest",
-            "label": "the 不忍通り−おじいちゃんおばあちゃんに聞く町の歴史"
+            "label": "the 不忍通り−おじいちゃんおばあちゃんに聞く町の歴史",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-012.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2481,7 +2577,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_032.json",
             "@type": "sc:Manifest",
-            "label": "吉田屋さんありがとう"
+            "label": "吉田屋さんありがとう",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-017.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2494,7 +2591,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_032.json",
             "@type": "sc:Manifest",
-            "label": "最近のうごき"
+            "label": "最近のうごき",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2521,7 +2619,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_011.json",
             "@type": "sc:Manifest",
-            "label": "きき豆腐会レポート"
+            "label": "きき豆腐会レポート",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-005.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2569,7 +2668,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_008.json",
             "@type": "sc:Manifest",
-            "label": "谷中の道路のまん中"
+            "label": "谷中の道路のまん中",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-004.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2617,13 +2717,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_007.json",
             "@type": "sc:Manifest",
-            "label": "特集のキッカケはこの人"
+            "label": "特集のキッカケはこの人",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-003.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_006.json",
             "@type": "sc:Manifest",
-            "label": "特集/おいしい豆腐の買える町−酒屋へ三里、豆腐屋へ二里"
+            "label": "特集/おいしい豆腐の買える町−酒屋へ三里、豆腐屋へ二里",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-003.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2685,7 +2787,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_009.json",
             "@type": "sc:Manifest",
-            "label": "谷中の家"
+            "label": "谷中の家",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-004.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2719,7 +2822,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_010.json",
             "@type": "sc:Manifest",
-            "label": "うまい豆腐のつくり方"
+            "label": "うまい豆腐のつくり方",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-005.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2746,7 +2850,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_033.json",
             "@type": "sc:Manifest",
-            "label": "再び平和地蔵について"
+            "label": "再び平和地蔵について",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-017.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2759,7 +2864,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_033.json",
             "@type": "sc:Manifest",
-            "label": "確蓮房通信"
+            "label": "確蓮房通信",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-018.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2800,13 +2906,15 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_025.json",
             "@type": "sc:Manifest",
-            "label": "団子坂特集補遺"
+            "label": "団子坂特集補遺",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_025.json",
             "@type": "sc:Manifest",
-            "label": "斉藤とよさん"
+            "label": "斉藤とよさん",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-012.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2819,7 +2927,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_005.json",
             "@type": "sc:Manifest",
-            "label": "目次"
+            "label": "目次",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-002.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2867,7 +2976,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_013.json",
             "@type": "sc:Manifest",
-            "label": "荒涼たる帰宅"
+            "label": "荒涼たる帰宅",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-007.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2887,7 +2997,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_044.json",
             "@type": "sc:Manifest",
-            "label": "編集後記"
+            "label": "編集後記",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-020.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2921,7 +3032,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_030.json",
             "@type": "sc:Manifest",
-            "label": "三崎坂より耳よりなお話"
+            "label": "三崎坂より耳よりなお話",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2955,7 +3067,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_026.json",
             "@type": "sc:Manifest",
-            "label": "九号後日談"
+            "label": "九号後日談",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2968,7 +3081,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_029.json",
             "@type": "sc:Manifest",
-            "label": "谷中・藤棚のある民家−画と文／石田良介"
+            "label": "谷中・藤棚のある民家−画と文／石田良介",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-015.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -2981,7 +3095,8 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_029.json",
             "@type": "sc:Manifest",
-            "label": "訂正とお詫び"
+            "label": "訂正とお詫び",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-016.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",

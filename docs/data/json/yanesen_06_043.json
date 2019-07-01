@@ -6,9 +6,19 @@
         "@value": "yanesen/06/043"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_06_043.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "本郷・ナイト・アンド・ディ①−白山通り冬午前二時"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-06/yanesen-06-018.jpg"
       }
     ]
   }

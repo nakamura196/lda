@@ -6,9 +6,19 @@
         "@value": "yanesen/02/045"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_045.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "ひろみの一日入門①-今日は八百屋の看板娘ダ！-対馬青果店（千駄木）"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-016.jpg"
       }
     ]
   }

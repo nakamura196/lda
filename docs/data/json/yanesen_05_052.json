@@ -6,9 +6,19 @@
         "@value": "yanesen/05/052"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_05_052.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "よみがえれ！パイプオルガン"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-05/yanesen-05-017.jpg"
       }
     ]
   }

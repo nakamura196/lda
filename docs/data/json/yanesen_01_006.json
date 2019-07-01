@@ -1,14 +1,44 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_006.json",
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "つるみよしこ"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "三崎の地名由来とさんさき坂商店街の商店名地図"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/01/006"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_006.json"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "35.724182, 139.765484"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "三崎,地名由来,柳通り商店街,よみせ通り,さんさき坂商店街,商店地図"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "さんさき坂まっぷ"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-01/yanesen-01-004.jpg"
       }
     ]
   }

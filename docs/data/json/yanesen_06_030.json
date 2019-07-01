@@ -1,14 +1,29 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_030.json",
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "清水小百合"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/06/030"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_06_030.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "水晶ローソク遺聞　町工場の夏　清水小百合"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-06/yanesen-06-016.jpg"
       }
     ]
   }

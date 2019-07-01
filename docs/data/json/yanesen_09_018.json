@@ -6,9 +6,19 @@
         "@value": "yanesen/09/018"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_09_018.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "谷中根津千駄木ちず"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-011.jpg"
       }
     ]
   }

@@ -6,9 +6,19 @@
         "@value": "yanesen/04/009"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_04_009.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "谷中から上野桜木へ−荻の（旧字）、谷中岡埜栄泉、桃林堂"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-04/yanesen-04-005.jpg"
       }
     ]
   }

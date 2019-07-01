@@ -6,9 +6,24 @@
         "@value": "yanesen/02/033"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_033.json"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "菊まつり"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "三崎坂大円寺で菊まつり"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-011.jpg"
       }
     ]
   }

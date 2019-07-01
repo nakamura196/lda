@@ -6,9 +6,19 @@
         "@value": "yanesen/08/008"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_08_008.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "岡本銀行頭取邸−牛丸典子さんの話"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-004.jpg"
       }
     ]
   }

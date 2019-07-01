@@ -1,14 +1,34 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_026.json",
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "森晃子"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/02/026"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_026.json"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "花電車"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "花電車のころ"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-007.jpg"
       }
     ]
   }

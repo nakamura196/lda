@@ -81,19 +81,3 @@ for j in range(3, r_count):
                 g.add((subject, p, Literal(value)))
 
     g.serialize(subject_str.replace(prefix, odir), format='json-ld')
-
-'''
-
-json_path = path+'.json'
-
-f2 = open(json_path, "wb")
-f2.write(g.serialize()
-f2.close()
-
-with open(json_path) as f:
-    df = json.load(f)
-
-with open(path+"_min.json", 'w') as f:
-    json.dump(df, f, ensure_ascii=False, sort_keys=True, separators=(',', ': '))
-
-'''

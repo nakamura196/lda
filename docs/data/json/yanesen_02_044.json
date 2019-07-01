@@ -6,9 +6,19 @@
         "@value": "yanesen/02/044"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_044.json"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "著者自筆広告一=草野のりかず「ぼくらの三角ベース」平凡社"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-015.jpg"
       }
     ]
   }

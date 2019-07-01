@@ -1,14 +1,39 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_004.json",
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "大円寺（日本東京都台東区谷中３丁目１−２）が現在の場所に至るまでの来歴"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/01/004"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_004.json"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "35.7246678,139.7632129"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "高光山大円寺,沿革,八百屋お七の火事,清水坂,谷中の瘡守様"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "大円寺と瘡守稲荷"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-01/yanesen-01-003.jpg"
       }
     ]
   }

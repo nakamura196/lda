@@ -1,14 +1,34 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_011.json",
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@value": "つるみよしこ"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/01/011"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_011.json"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "つるみよに,タンポポ,キク"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "やねせん横丁"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-01/yanesen-01-006.jpg"
       }
     ]
   }

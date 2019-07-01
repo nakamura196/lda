@@ -6,9 +6,24 @@
         "@value": "yanesen/01/008"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "キク,植物学的分類,菊の紋,記章,薬用,菊あわせ,菊供養"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "薮そば遺聞"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-01/yanesen-01-005.jpg"
       }
     ]
   }

@@ -1,14 +1,39 @@
 [
   {
     "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_005.json",
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "錦絵草創者・鈴木春信と明和の美女・笠森お仙にまつわる逸話"
+      }
+    ],
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "yanesen/01/005"
       }
     ],
+    "http://purl.org/dc/terms/relation": [
+      {
+        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_005.json"
+      }
+    ],
+    "http://purl.org/dc/terms/spatial": [
+      {
+        "@value": "35.7249583,139.7667488"
+      }
+    ],
+    "http://purl.org/dc/terms/subject": [
+      {
+        "@value": "錦絵,鈴木春信,笠森お仙,笹川臨風,永井荷風,感応寺,功徳林寺,笠森稲荷"
+      }
+    ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "笠森お仙伝説"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/thumbnail": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-01/yanesen-01-003.jpg"
       }
     ]
   }
