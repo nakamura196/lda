@@ -43,6 +43,9 @@
             "viewingHint": "non-paged"
         }
     ],
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-010.jpg"
+    },
     "viewingDirection": "right-to-left",
     "within": "http://www.hi.u-tokyo.ac.jp/publication/dip/index.html"
 }
