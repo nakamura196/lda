@@ -6,6 +6,8 @@
     "label": "町の小さな博物館−江戸の時を刻む町",
     "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
     "logo": "http://www.hi.u-tokyo.ac.jp/favicon.ico",
+    "relation": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_09_020.json",
+    "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_09_020.json",
     "sequences": [
         {
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_020.json/sequence/normal",

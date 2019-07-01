@@ -6,6 +6,8 @@
     "label": "谷中根津千駄木ちず",
     "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
     "logo": "http://www.hi.u-tokyo.ac.jp/favicon.ico",
+    "relation": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_09_018.json",
+    "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_09_018.json",
     "sequences": [
         {
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_018.json/sequence/normal",

@@ -6,6 +6,8 @@
     "label": "江戸の花見",
     "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
     "logo": "http://www.hi.u-tokyo.ac.jp/favicon.ico",
+    "relation": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_07_008.json",
+    "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_07_008.json",
     "sequences": [
         {
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_07_008.json/sequence/normal",
@@ -41,6 +43,9 @@
             "viewingHint": "non-paged"
         }
     ],
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-07/yanesen-07-004.jpg"
+    },
     "viewingDirection": "right-to-left",
     "within": "http://www.hi.u-tokyo.ac.jp/publication/dip/index.html"
 }
