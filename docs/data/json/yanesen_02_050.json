@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_050.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/050"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "根津の三階家について"
+      }
+    ]
+  }
+]

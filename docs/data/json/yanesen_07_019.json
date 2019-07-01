@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_019.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/019"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "五重塔炎上"
+      }
+    ]
+  }
+]

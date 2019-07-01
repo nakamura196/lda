@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_019.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/019"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "根津の飴売り"
+      }
+    ]
+  }
+]

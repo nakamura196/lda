@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_047.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/047"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "千石の三百人劇場、谷根千読者に観劇招待"
+      }
+    ]
+  }
+]

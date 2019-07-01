@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_027.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/027"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "横川金物店、三金金物店三河屋、菅谷金物店、山崎刃物店、塩野金物株 式会社、大吉大貫商店、みねや金物店、植田屋吉田金物店"
+      }
+    ]
+  }
+]

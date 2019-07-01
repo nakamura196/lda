@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_039.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/039"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "吉村昭先生からカンパ、椎名誠さんからお手紙をいただく"
+      }
+    ]
+  }
+]

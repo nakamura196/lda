@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_031.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/031"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "自分のためには汗を流し人の為めには涙を流せ 皆さんの汗は太郎湯で流す　銭湯特集補遺　太郎湯（田端）"
+      }
+    ]
+  }
+]

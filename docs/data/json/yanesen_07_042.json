@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_042.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/042"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中大円寺の副住職・豊田日朋師百日の荒行に耐え帰還"
+      }
+    ]
+  }
+]

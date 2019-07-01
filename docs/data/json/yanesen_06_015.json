@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_015.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/015"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "根津の酒屋−北野酒店、水村屋、サワノ本店、永田屋、吉野屋酒店、大和屋、浅野商店"
+      }
+    ]
+  }
+]

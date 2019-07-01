@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_053.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/053"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "千駄木二丁目の秋さんの大邸宅が三井不動産のマンションになるらしい"
+      }
+    ]
+  }
+]

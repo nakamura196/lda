@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_036.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/036"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "不忍池の精霊流し、納涼大会"
+      }
+    ]
+  }
+]

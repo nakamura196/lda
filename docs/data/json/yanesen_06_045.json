@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_045.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/045"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "いいコーヒーは繁華街では飲めない−ラ・ゲール、庵"
+      }
+    ]
+  }
+]

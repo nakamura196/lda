@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_039.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/039"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "ひろみの一日入門-②谷中銀座「魚亀」今日はししゃもが安いよー"
+      }
+    ]
+  }
+]

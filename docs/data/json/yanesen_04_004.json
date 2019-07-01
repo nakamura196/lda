@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_004.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/004"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中・一乗寺-スケッチ／川原史敬"
+      }
+    ]
+  }
+]

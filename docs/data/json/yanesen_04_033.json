@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_033.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/033"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中墓地で「谷根千主催大花見大会」"
+      }
+    ]
+  }
+]

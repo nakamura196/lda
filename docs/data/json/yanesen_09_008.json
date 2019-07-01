@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_008.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/008"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中の道路のまん中"
+      }
+    ]
+  }
+]

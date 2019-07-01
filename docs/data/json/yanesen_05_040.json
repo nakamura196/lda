@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_040.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/040"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中全生庵で第一回円朝まつり"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_023.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/023"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中の好きな名東大生　山浦正宏（芸大・ファゴット吹き）"
+      }
+    ]
+  }
+]

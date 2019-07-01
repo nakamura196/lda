@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_013.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/013"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "菊の湯"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_040.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/040"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "新事実！楽器製造所の存在"
+      }
+    ]
+  }
+]

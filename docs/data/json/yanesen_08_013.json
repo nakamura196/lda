@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_013.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/013"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "薮そば、菊そば、今晩軒"
+      }
+    ]
+  }
+]

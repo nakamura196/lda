@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_048.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/048"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "東京国立博物館「比叡山と天台の美術」谷根千読者を招待"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_028.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/028"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "「谷中・根津・千駄木の生活を記録する会」発会式"
+      }
+    ]
+  }
+]

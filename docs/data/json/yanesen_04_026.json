@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_026.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/026"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "この街にこんな人（根津）-根津に活気を、上松大雅堂の上田松男さん"
+      }
+    ]
+  }
+]

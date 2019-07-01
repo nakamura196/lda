@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_029.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/029"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中・藤棚のある民家−画と文／石田良介"
+      }
+    ]
+  }
+]

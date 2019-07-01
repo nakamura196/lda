@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_030.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/030"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "酒屋特集補遺〈訂正、陳謝、補遺…ゴメンナサイ〉"
+      }
+    ]
+  }
+]

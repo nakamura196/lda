@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_028.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/028"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "富士の見える坂(富士見坂　江黒美代子さん）"
+      }
+    ]
+  }
+]

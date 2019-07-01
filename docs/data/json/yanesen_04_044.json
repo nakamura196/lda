@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_044.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/044"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "自宅が事務所、失礼はご容赦下さい。"
+      }
+    ]
+  }
+]

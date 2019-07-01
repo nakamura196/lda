@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_026.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/026"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "ご近所調査報告−平和地蔵を救え！"
+      }
+    ]
+  }
+]

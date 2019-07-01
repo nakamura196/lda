@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_047.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/047"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "NTT第一回全国タウン誌フェスティバルで「谷中・根津・千駄木」が「大賞」に"
+      }
+    ]
+  }
+]

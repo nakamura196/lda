@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_034.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/034"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "ひろみの一日入門−⑤　和菓子 ひぐらし(谷中・三崎坂）自分で作ったお供えで楽しく迎えたお正月"
+      }
+    ]
+  }
+]

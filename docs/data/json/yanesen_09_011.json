@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_011.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/011"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "林町一五五番地"
+      }
+    ]
+  }
+]

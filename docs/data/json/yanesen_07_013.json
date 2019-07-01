@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_013.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/013"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "天王寺住職・大久保良順先生の話"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_023.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/023"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "鴎外特集補遺の補遺−色部義明氏に聞く"
+      }
+    ]
+  }
+]

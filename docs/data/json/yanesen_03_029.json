@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_029.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/029"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "フジテレビ「あなたの東京」で、谷中小学校、汐見保育園の子らのわらべうたの風景放映"
+      }
+    ]
+  }
+]

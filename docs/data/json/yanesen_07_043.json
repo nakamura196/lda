@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_043.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/043"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "木下順二先生が「朝日賞」を受賞"
+      }
+    ]
+  }
+]

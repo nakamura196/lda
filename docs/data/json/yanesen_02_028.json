@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_028.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/028"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "この街にこんな人〈根津〉蛇の道を行く爬虫類研究所の高田さん"
+      }
+    ]
+  }
+]

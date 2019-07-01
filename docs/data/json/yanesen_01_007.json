@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_007.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/01/007"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "明治はるか菊人形−植梅・浅井美恵子さん、清水清大園・清水喜代さん、菊見せんべい・天野きみさん、染井鉱作さん"
+      }
+    ]
+  }
+]

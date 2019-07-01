@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_011.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/011"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "手仕事を訪ねて②-中小路染物店　丁子屋"
+      }
+    ]
+  }
+]

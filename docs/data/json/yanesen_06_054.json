@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_054.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/054"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "大晦日のお勧め＝諏方神社焚火→養福寺の甘酒→全生庵鐘付→根津神社もちつき"
+      }
+    ]
+  }
+]

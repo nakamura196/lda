@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_009.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/009"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "三四郎に逢引路ー文学に現われた藍染川"
+      }
+    ]
+  }
+]

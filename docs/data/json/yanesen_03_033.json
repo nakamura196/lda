@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_033.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/033"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "「古き田端を語る会」新装なった北区田端図書館にて"
+      }
+    ]
+  }
+]

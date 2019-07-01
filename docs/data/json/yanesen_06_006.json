@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_006.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/006"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "自由民権と谷中墓地③小野梓と馬場辰猪"
+      }
+    ]
+  }
+]

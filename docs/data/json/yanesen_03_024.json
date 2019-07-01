@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_024.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/024"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "坂のある風景-谷中・三浦坂 棚谷勲"
+      }
+    ]
+  }
+]

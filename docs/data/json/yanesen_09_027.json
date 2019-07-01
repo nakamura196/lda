@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_027.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/027"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "フロへはいる散歩−見晴しの湯資料"
+      }
+    ]
+  }
+]

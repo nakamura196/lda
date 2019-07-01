@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_051.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/051"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中銀座は恒例の「お客様感謝、帝国ホテルバイキングご招待」"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_039.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/039"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "鴎外と柳田国男ー多田正明（千駄木）"
+      }
+    ]
+  }
+]

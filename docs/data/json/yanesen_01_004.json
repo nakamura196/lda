@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_004.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/01/004"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "大円寺と瘡守稲荷"
+      }
+    ]
+  }
+]

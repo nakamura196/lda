@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_031.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/031"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷根千味のグランプリ　本当においしいお店−アイスは大正ロマンの味・芋甚"
+      }
+    ]
+  }
+]

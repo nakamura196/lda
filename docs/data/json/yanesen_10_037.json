@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_037.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/037"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "トヨタ財団研究助成ニュース①谷中・上野桜木の親しまれる環境調査より（一）"
+      }
+    ]
+  }
+]

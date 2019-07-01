@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_004.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/004"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "文京十景第一位　根津神社／川原史敬"
+      }
+    ]
+  }
+]

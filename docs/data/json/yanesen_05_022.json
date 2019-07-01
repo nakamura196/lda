@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_022.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/022"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "坂のある風景−千駄木・狸坂／棚谷勲"
+      }
+    ]
+  }
+]

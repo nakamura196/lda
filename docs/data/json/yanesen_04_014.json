@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_014.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/014"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "動坂を田端へ向う−おわりや、西東屋、土佐屋、松仙堂、甲州屋"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_001.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/01/001"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "表紙／菊模様の浴衣柄"
+      }
+    ]
+  }
+]

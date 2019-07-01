@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_026.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/026"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "D坂の殺人事件を推理する"
+      }
+    ]
+  }
+]

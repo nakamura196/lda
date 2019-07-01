@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_049.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/049"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "「鈴木精肉店」では今日つぶした牛のタン（舌）レバー（肝臓）を売っている"
+      }
+    ]
+  }
+]

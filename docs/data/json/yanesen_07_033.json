@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_033.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/033"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "かおりのエプロンサイクリング その1 谷根千界隈の「ホーム・ベーカリー」のお店を訪ねての巻"
+      }
+    ]
+  }
+]

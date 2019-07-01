@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_029.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/029"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷根千味のグランプリ　本当においしいお店-道濯山下　天ぷら・天米"
+      }
+    ]
+  }
+]

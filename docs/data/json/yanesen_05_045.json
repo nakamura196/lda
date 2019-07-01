@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_045.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/045"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "諏方神社祭礼"
+      }
+    ]
+  }
+]

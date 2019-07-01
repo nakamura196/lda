@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_026.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/026"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "味のグランプリ　本当においしいお店　スパゲティとサラダ　根津　トレアドール"
+      }
+    ]
+  }
+]

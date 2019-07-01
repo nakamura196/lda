@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_007.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/007"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "特集のキッカケはこの人"
+      }
+    ]
+  }
+]

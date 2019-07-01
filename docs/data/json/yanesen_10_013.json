@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_013.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/013"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "ジョルダン・サンド氏のアメリカの豆腐事情"
+      }
+    ]
+  }
+]

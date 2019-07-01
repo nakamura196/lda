@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_007.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/007"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "藍染川ストリートライフ この道ずいぶん曲がってるね"
+      }
+    ]
+  }
+]

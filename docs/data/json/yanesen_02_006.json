@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_006.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/006"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "寒い日はお風呂へ行きませう"
+      }
+    ]
+  }
+]

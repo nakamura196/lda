@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_031.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/031"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "根津小学校で伝統工芸を観る会"
+      }
+    ]
+  }
+]

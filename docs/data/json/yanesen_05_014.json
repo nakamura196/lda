@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_014.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/014"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "鴎外が歩く−証言③（清大園・清水喜代さん）"
+      }
+    ]
+  }
+]

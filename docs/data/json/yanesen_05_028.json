@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_028.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/028"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "郷土史発掘−棲み家としての町へ−藤原恵洋"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_020.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/020"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "四　谷中・初音町の家"
+      }
+    ]
+  }
+]

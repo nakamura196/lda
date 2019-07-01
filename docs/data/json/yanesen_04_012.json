@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_012.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/012"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中銀座とその周辺−千両最中、懸賞だんご、むさしや、尾張屋、花家、あづま家"
+      }
+    ]
+  }
+]

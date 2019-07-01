@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_031.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/031"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "本駒込図書館友の会"
+      }
+    ]
+  }
+]

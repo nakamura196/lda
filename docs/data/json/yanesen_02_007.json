@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_007.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/007"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷根千湯屋めぐり"
+      }
+    ]
+  }
+]

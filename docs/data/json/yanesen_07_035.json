@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_035.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/035"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "自然食の店−まずは食べることから始める＝根津の谷/大きなかぶ"
+      }
+    ]
+  }
+]

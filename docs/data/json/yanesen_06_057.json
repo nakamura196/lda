@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_057.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/057"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "お知らせ"
+      }
+    ]
+  }
+]

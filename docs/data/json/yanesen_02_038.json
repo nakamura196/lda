@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_038.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/038"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "文京一葉忌が本郷赤門前法真寺で"
+      }
+    ]
+  }
+]

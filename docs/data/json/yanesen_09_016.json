@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_016.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/016"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "根津小学校創立90年によせて−12，339人の卒業生へ"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_024.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/024"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中・永久寺−剪画・文／石田良介"
+      }
+    ]
+  }
+]

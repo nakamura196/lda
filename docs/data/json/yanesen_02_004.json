@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_004.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/004"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中１丁目　延寿寺"
+      }
+    ]
+  }
+]

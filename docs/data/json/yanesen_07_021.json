@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_021.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/021"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中霊園著名人墓碑"
+      }
+    ]
+  }
+]

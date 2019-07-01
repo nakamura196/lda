@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_037.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/037"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "この間に会えた人"
+      }
+    ]
+  }
+]

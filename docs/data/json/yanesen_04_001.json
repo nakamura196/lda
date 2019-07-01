@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_001.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/001"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "表紙／三谷一馬「江戸職人図聚」（立風書房）より"
+      }
+    ]
+  }
+]

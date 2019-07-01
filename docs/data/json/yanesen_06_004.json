@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_004.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/004"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中・大円寺−／川原史敬"
+      }
+    ]
+  }
+]

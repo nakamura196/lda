@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_024.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/024"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "the 不忍通り−おじいちゃんおばあちゃんに聞く町の歴史"
+      }
+    ]
+  }
+]

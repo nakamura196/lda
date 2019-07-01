@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_033.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/033"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "著者自筆広告No.7−諏訪優「芥川龍之介の俳句を歩く」踏青社"
+      }
+    ]
+  }
+]

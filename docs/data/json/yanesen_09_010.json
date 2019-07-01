@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_010.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/010"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "智恵子の谷中付近"
+      }
+    ]
+  }
+]

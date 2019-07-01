@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_035.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/035"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "郷土史発掘　鴎外特集補遺"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_039.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/039"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "本郷法真寺で百人一首の会"
+      }
+    ]
+  }
+]

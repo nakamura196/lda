@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_011.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/011"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "老舗の味を伝える−一炉庵、喜久月、羽二重団子"
+      }
+    ]
+  }
+]

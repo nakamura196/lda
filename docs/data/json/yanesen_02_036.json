@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_036.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/036"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷中銀座商店街主催の史跡めぐりオリエンテーリング"
+      }
+    ]
+  }
+]

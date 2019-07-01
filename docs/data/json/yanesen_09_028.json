@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_09_028.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/09/028"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "記憶の団子坂周辺"
+      }
+    ]
+  }
+]

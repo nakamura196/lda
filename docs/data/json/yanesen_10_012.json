@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_012.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/012"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "おいしく豆腐を食べるには"
+      }
+    ]
+  }
+]

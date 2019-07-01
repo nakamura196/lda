@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_003.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/003"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "正月　下駄の音　金子邦生版画展"
+      }
+    ]
+  }
+]

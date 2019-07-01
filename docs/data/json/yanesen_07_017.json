@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_017.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/017"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "天王寺一問一答"
+      }
+    ]
+  }
+]

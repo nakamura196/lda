@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_013.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/013"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "弐　藪下道から観潮楼まで"
+      }
+    ]
+  }
+]

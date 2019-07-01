@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_052.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/052"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "根津神社境内のポプラの大木が「音もなくスッと倒れた」"
+      }
+    ]
+  }
+]

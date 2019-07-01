@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_07_023.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/07/023"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "この街にこんな人（根津二丁目）\"建築の忘れ形見\"採集人・佐藤龍蔵さん"
+      }
+    ]
+  }
+]

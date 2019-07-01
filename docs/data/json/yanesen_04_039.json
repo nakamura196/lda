@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_039.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/039"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "第四回根津寄席"
+      }
+    ]
+  }
+]

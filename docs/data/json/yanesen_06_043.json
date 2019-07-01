@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_043.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/043"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "本郷・ナイト・アンド・ディ①−白山通り冬午前二時"
+      }
+    ]
+  }
+]

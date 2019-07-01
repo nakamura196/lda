@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_08_019.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/08/019"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "円朝はわれらの同時代人・後編−谷根千円朝めぐり"
+      }
+    ]
+  }
+]

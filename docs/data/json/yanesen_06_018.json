@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_018.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/018"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "三河屋一覧"
+      }
+    ]
+  }
+]

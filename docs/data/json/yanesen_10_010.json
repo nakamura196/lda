@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_010.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/010"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "うまい豆腐のつくり方"
+      }
+    ]
+  }
+]

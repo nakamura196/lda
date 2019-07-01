@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_015.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/015"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "六竜鉱泉"
+      }
+    ]
+  }
+]

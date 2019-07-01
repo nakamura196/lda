@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_04_034.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/04/034"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "夜、「新内、岡本文弥の会」"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_045.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/045"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "ひろみの一日入門①-今日は八百屋の看板娘ダ！-対馬青果店（千駄木）"
+      }
+    ]
+  }
+]

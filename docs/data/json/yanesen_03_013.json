@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_03_013.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/03/013"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "この街にこんな人（谷中七丁目）　旧い町の国際人　萩原忠三さん"
+      }
+    ]
+  }
+]

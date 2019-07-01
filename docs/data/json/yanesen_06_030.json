@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_06_030.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/06/030"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "水晶ローソク遺聞　町工場の夏　清水小百合"
+      }
+    ]
+  }
+]

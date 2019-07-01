@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_034.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/05/034"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "上野、浅草、隅田川」で谷根千の活動が紹介される"
+      }
+    ]
+  }
+]

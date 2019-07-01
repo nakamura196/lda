@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_022.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/022"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "谷根千の新名所/日暮里・本行寺−一茶と山頭火、本行寺にて邂逅"
+      }
+    ]
+  }
+]

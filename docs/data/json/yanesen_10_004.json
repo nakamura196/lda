@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_10_004.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/10/004"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "日暮里・本行寺　川原史敬"
+      }
+    ]
+  }
+]

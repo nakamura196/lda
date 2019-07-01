@@ -1,0 +1,15 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/lda/data/json/yanesen_02_044.json",
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "yanesen/02/044"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "著者自筆広告一=草野のりかず「ぼくらの三角ベース」平凡社"
+      }
+    ]
+  }
+]
