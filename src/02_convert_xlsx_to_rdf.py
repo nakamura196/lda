@@ -25,6 +25,7 @@ def parse_args(args=sys.argv[1:]):
 args = parse_args()
 
 path = args.path
+opath = "../docs/data/data.json"
 
 g = Graph()
 
@@ -64,16 +65,4 @@ for j in range(3, r_count):
                 g.add((subject, p, Literal(value)))
 
 
-g.serialize(destination=path+'.rdf')
-
-json_path = path+'.json'
-
-f2 = open(json_path, "wb")
-f2.write(g.serialize(format='json-ld'))
-f2.close()
-
-with open(json_path) as f:
-    df = json.load(f)
-
-with open(path+"_min.json", 'w') as f:
-    json.dump(df, f, ensure_ascii=False, sort_keys=True, separators=(',', ': '))
+g.serialize(opath, format='json-ld')
