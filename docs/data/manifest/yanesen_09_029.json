@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_029.json",
+    "@type": "sc:Manifest",
+    "attribution": "Historiographical Institute The University of Tokyo 東京大学史料編纂所",
+    "label": "訂正とお詫び",
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "logo": "http://www.hi.u-tokyo.ac.jp/favicon.ico",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_029.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_029.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_029.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_09_029.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-016.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "width": 3680
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-09/yanesen-09-016.jpg"
+                    },
+                    "width": 3680
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "viewingDirection": "right-to-left",
+    "within": "http://www.hi.u-tokyo.ac.jp/publication/dip/index.html"
+}
