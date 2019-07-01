@@ -2,10 +2,10 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_10_017.json",
     "@type": "sc:Manifest",
-    "attribution": "Historiographical Institute The University of Tokyo 東京大学史料編纂所",
+    "attribution": "地域文化資源デジタルアーカイブ",
     "label": "谷根千手作り豆腐の買える店全リスト",
-    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
-    "logo": "http://www.hi.u-tokyo.ac.jp/favicon.ico",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
     "relation": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_10_017.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_10_017.json",
     "sequences": [
@@ -47,5 +47,5 @@
         "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-10/yanesen-10-007.jpg"
     },
     "viewingDirection": "right-to-left",
-    "within": "http://www.hi.u-tokyo.ac.jp/publication/dip/index.html"
+    "within": "https://nakamura196.github.io/lda/"
 }
