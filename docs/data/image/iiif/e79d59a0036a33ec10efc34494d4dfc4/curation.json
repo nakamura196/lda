@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/lda/dataimage/iiif/e79d59a0036a33ec10efc34494d4dfc4/curation.json",
+    "@type": "cr:Curation",
+    "label": "寒い日はお風呂へ行きませう",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/lda/dataimage/iiif/e79d59a0036a33ec10efc34494d4dfc4/curation.json#1",
+            "@type": "sc:Range",
+            "label": "Automaic curation by IIIF Converter",
+            "members": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_006.json/canvas/p1#xywh=2468,1279,334,482",
+                    "@type": "sc:Canvas",
+                    "label": "[1]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_006.json/canvas/p1#xywh=2279,1739,368,355",
+                    "@type": "sc:Canvas",
+                    "label": "[2]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_006.json/canvas/p2#xywh=706,1546,304,434",
+                    "@type": "sc:Canvas",
+                    "label": "[3]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_006.json/canvas/p2#xywh=1471,1556,310,444",
+                    "@type": "sc:Canvas",
+                    "label": "[4]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_006.json/canvas/p2#xywh=1111,1548,379,337",
+                    "@type": "sc:Canvas",
+                    "label": "[5]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_006.json",
+                "@type": "sc:Manifest",
+                "label": "寒い日はお風呂へ行きませう"
+            }
+        }
+    ]
+}

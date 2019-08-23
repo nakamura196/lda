@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/lda/dataimage/iiif/feabc22452decb9f87e6003f6ad3155d/curation.json",
+    "@type": "cr:Curation",
+    "label": "朝日湯",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/lda/dataimage/iiif/feabc22452decb9f87e6003f6ad3155d/curation.json#1",
+            "@type": "sc:Range",
+            "label": "Automaic curation by IIIF Converter",
+            "members": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_009.json/canvas/p1#xywh=2468,1279,334,482",
+                    "@type": "sc:Canvas",
+                    "label": "[1]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_009.json/canvas/p1#xywh=2279,1739,368,355",
+                    "@type": "sc:Canvas",
+                    "label": "[2]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_009.json",
+                "@type": "sc:Manifest",
+                "label": "朝日湯"
+            }
+        }
+    ]
+}

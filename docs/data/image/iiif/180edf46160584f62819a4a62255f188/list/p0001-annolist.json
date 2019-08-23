@@ -1,0 +1,29 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://nakamura196.github.io/lda/data/image/iiif/180edf46160584f62819a4a62255f188/list/p0001-annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_027.json/canvas/p1#xywh=2245,963,415,469",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_027.json/canvas/p1#xywh=2245,963,415,469",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Person",
+                "format": "text/plain"
+            }
+        },
+        {
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_027.json/canvas/p1#xywh=979,931,503,508",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_027.json/canvas/p1#xywh=979,931,503,508",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "Person",
+                "format": "text/plain"
+            }
+        }
+    ]
+}

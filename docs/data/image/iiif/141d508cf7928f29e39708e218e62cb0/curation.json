@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/lda/dataimage/iiif/141d508cf7928f29e39708e218e62cb0/curation.json",
+    "@type": "cr:Curation",
+    "label": "寒い日はお風呂へ行きませう",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/lda/dataimage/iiif/141d508cf7928f29e39708e218e62cb0/curation.json#1",
+            "@type": "sc:Range",
+            "label": "Automaic curation by IIIF Converter",
+            "members": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json/canvas/p1#xywh=1659,735,611,1233",
+                    "@type": "sc:Canvas",
+                    "label": "[1]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json",
+                "@type": "sc:Manifest",
+                "label": "寒い日はお風呂へ行きませう"
+            }
+        }
+    ]
+}

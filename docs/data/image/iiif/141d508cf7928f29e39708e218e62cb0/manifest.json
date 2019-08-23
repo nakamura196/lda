@@ -1,0 +1,63 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json",
+    "@type": "sc:Manifest",
+    "attribution": "地域文化資源デジタルアーカイブ",
+    "label": "寒い日はお風呂へ行きませう",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "relation": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json",
+    "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_02_001.json",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_001.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "width": 3680
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "otherContent": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda/data/image/iiif/141d508cf7928f29e39708e218e62cb0/list/p0001-annolist.json",
+                            "@type": "sc:AnnotationList"
+                        }
+                    ],
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-001.jpg"
+                    },
+                    "width": 3680
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "service": {
+        "@context": "http://iiif.io/api/search/0/context.json",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/get.php/https://nakamura196.github.io/lda/data/text/xml/141d508cf7928f29e39708e218e62cb0.xml",
+        "label": "Search within this manifest",
+        "profile": "http://iiif.io/api/search/0/search"
+    },
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-001.jpg"
+    },
+    "viewingDirection": "right-to-left",
+    "within": "https://nakamura196.github.io/lda/"
+}

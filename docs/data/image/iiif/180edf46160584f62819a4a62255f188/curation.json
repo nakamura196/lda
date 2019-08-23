@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/lda/dataimage/iiif/180edf46160584f62819a4a62255f188/curation.json",
+    "@type": "cr:Curation",
+    "label": "この街にこんな人〈千駄木〉浩宮様の産着を縫った楜沢のおばあちゃん",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/lda/dataimage/iiif/180edf46160584f62819a4a62255f188/curation.json#1",
+            "@type": "sc:Range",
+            "label": "Automaic curation by IIIF Converter",
+            "members": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_027.json/canvas/p1#xywh=2245,963,415,469",
+                    "@type": "sc:Canvas",
+                    "label": "[1]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_027.json/canvas/p1#xywh=979,931,503,508",
+                    "@type": "sc:Canvas",
+                    "label": "[2]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "Person"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_027.json",
+                "@type": "sc:Manifest",
+                "label": "この街にこんな人〈千駄木〉浩宮様の産着を縫った楜沢のおばあちゃん"
+            }
+        }
+    ]
+}
