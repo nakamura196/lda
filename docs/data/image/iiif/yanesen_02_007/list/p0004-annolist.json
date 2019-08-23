@@ -1,0 +1,18 @@
+{
+    "@context": "http://www.shared-canvas.org/ns/context.json",
+    "@id": "https://nakamura196.github.io/lda/data/image/iiif/yanesen_02_007/list/p0004-annolist.json",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@id": "anbase:7fd22ae7a88a5ea7c906fb3f150fa0c2",
+            "@type": "oa:Annotation",
+            "motivation": "sc:painting",
+            "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_007.json/canvas/p4#xywh=1327,446,69,211",
+            "resource": {
+                "@type": "cnt:ContentAsText",
+                "chars": "富久の湯",
+                "format": "text/plain"
+            }
+        }
+    ]
+}
