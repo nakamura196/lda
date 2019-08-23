@@ -155,6 +155,12 @@
             "viewingHint": "non-paged"
         }
     ],
+    "service": {
+        "@context": "http://iiif.io/api/search/0/context.json",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/get.php/https://nakamura196.github.io/lda/data/text/xml/2aa316aa72929ce4abefac64ae6b4d28.xml",
+        "label": "Search within this manifest",
+        "profile": "http://iiif.io/api/search/0/search"
+    },
     "thumbnail": {
         "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
     },
