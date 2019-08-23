@@ -1,0 +1,31 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>谷根千湯屋めぐり</title>
+            <respStmt>
+               <resp when="2019-07-11">TEI Encoding</resp>
+               <name>Satoru Nakamura</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Satoru Nakamura</distributor>
+            <date when="2019-07-11">2019年7月11日</date>
+            <availability>
+               <p />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p />
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile>
+      <surfaceGrp facs="https://nakamura196.github.io/lda/data/manifest/yanesen_02_007.json">
+         
+      <surface><graphic n="https://nakamura196.github.io/lda/data/manifest/yanesen_02_007.json/canvas/p4" url="https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-006.jpg" /><zone lrx="1396" lry="657" ulx="1327" uly="446" xml:id="zone_0001" /></surface></surfaceGrp>
+   </facsimile>
+   <text>
+      <body><span facs="#zone_0001">富久の湯</span></body>
+   </text>
+</TEI>

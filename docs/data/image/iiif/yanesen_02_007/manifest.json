@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_007.json",
+    "@id": "https://nakamura196.github.io/lda/data/image/iiif/yanesen_02_007/manifest.json",
     "@type": "sc:Manifest",
     "attribution": "地域文化資源デジタルアーカイブ",
     "label": "谷根千湯屋めぐり",
@@ -149,6 +149,12 @@
             "viewingHint": "non-paged"
         }
     ],
+    "service": {
+        "@context": "http://iiif.io/api/search/0/context.json",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/get.php/https://nakamura196.github.io/lda/data/xml/yanesen_02_007.xml",
+        "label": "Search within this manifest",
+        "profile": "http://iiif.io/api/search/0/search"
+    },
     "thumbnail": {
         "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
     },

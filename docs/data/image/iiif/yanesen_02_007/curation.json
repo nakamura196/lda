@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/lda/dataimage/iiif/yanesen_02_007/curation.json",
+    "@type": "cr:Curation",
+    "label": "挿絵キュレーション",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/lda/dataimage/iiif/yanesen_02_007/curation.json#1",
+            "@type": "sc:Range",
+            "label": "Automaic curation by IIIF Converter",
+            "members": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_007.json/canvas/p4#xywh=1327,446,69,211",
+                    "@type": "sc:Canvas",
+                    "label": "[1]",
+                    "metadata": [
+                        {
+                            "label": "chars",
+                            "value": "富久の湯"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_007.json",
+                "@type": "sc:Manifest",
+                "label": "谷根千湯屋めぐり"
+            }
+        }
+    ]
+}
