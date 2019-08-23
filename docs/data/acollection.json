@@ -1,0 +1,121 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda/data/acollection.json",
+    "@type": "sc:Collection",
+    "label": "IIIF Collection",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/yanesen_02_007/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "谷根千湯屋めぐり",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/f9c2355151d8ff6b08224af046dd1cf7/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "人参湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-004.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/91614bc0d31e4fa4d5364d7d0bb770f1/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "初音湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-004.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/1ae3cc45086408d017cddc6a075df808/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "この街にこんな人〈根津〉蛇の道を行く爬虫類研究所の高田さん",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-008.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/180edf46160584f62819a4a62255f188/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "この街にこんな人〈千駄木〉浩宮様の産着を縫った楜沢のおばあちゃん",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-008.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/7d0b75e7a1999e219c5c5313a7f7e26b/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "銭湯あれこれ",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/4053ddf3e8da820214e08d73306f970a/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "菊の湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-004.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/5afed18323d3f31952466ddd8b496ae1/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "真島湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/28e43eb64bf8ddb8538a57ba795e431b/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "谷根千湯屋めぐり",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/543024fcca9faf21edf815a091c1c9e3/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "文京つつじ祭り",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-04/yanesen-04-016.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/e79d59a0036a33ec10efc34494d4dfc4/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "寒い日はお風呂へ行きませう",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/47715fbea1e0fb755f6723373806963a/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "世界湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-004.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/2aa316aa72929ce4abefac64ae6b4d28/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "谷根千湯屋めぐり",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/99c88784c82b97459ad69ff6cd47538c/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "柏湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-004.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/141d508cf7928f29e39708e218e62cb0/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "寒い日はお風呂へ行きませう",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-001.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/image/iiif/feabc22452decb9f87e6003f6ad3155d/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "朝日湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-02/yanesen-02-003.jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

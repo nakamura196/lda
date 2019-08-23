@@ -3,7 +3,7 @@
         <div class="container">
 
             <div class="copyright">
-                東京文化資源会議
+                <a href="https://tcha.jp/">東京文化資源会議</a>
             </div>
         </div>
     </footer>
