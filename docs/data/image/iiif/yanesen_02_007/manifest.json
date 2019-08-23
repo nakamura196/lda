@@ -151,7 +151,7 @@
     ],
     "service": {
         "@context": "http://iiif.io/api/search/0/context.json",
-        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/get.php/https://nakamura196.github.io/lda/data/xml/yanesen_02_007.xml",
+        "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/api/iiif-search/get.php/https://nakamura196.github.io/lda/data/text/xml/yanesen_02_007.xml",
         "label": "Search within this manifest",
         "profile": "http://iiif.io/api/search/0/search"
     },
