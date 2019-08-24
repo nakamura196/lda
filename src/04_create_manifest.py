@@ -72,7 +72,7 @@ for j in range(3, r_count):
         "within": within,
         "viewingDirection": viewingDirection,
         "seeAlso": seeAlso,
-        "relation": relation,
+        "related": relation,
         "sequences": [
             {
                 "@type": "sc:Sequence",
