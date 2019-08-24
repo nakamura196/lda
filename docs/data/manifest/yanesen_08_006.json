@@ -6,7 +6,7 @@
     "label": "団子坂物語",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
-    "relation": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_08_006.json",
+    "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_08_006.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_08_006.json",
     "sequences": [
         {
@@ -24,7 +24,7 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_006.json/canvas/p1",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-003.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-08/yanesen-08-003.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
@@ -34,7 +34,7 @@
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-003.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-08/yanesen-08-003.jpg"
                     },
                     "width": 3680
                 },
@@ -49,7 +49,7 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_006.json/canvas/p2",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-004.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-08/yanesen-08-004.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
@@ -59,7 +59,7 @@
                     ],
                     "label": "[2]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-004.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-08/yanesen-08-004.jpg"
                     },
                     "width": 3680
                 },
@@ -74,7 +74,7 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_006.json/canvas/p3",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-005.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-08/yanesen-08-005.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
@@ -84,7 +84,7 @@
                     ],
                     "label": "[3]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-005.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-08/yanesen-08-005.jpg"
                     },
                     "width": 3680
                 },
@@ -99,7 +99,7 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_006.json/canvas/p4",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-006.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-08/yanesen-08-006.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
@@ -109,7 +109,7 @@
                     ],
                     "label": "[4]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-006.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-08/yanesen-08-006.jpg"
                     },
                     "width": 3680
                 },
@@ -124,7 +124,7 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_08_006.json/canvas/p5",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-007.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-08/yanesen-08-007.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
@@ -134,7 +134,7 @@
                     ],
                     "label": "[5]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-007.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-08/yanesen-08-007.jpg"
                     },
                     "width": 3680
                 }
@@ -144,7 +144,7 @@
         }
     ],
     "thumbnail": {
-        "@id": "https://nakamura196.github.io/lda/data/images/yanesen/yanesen-08/yanesen-08-003.jpg"
+        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-08/yanesen-08-003.jpg"
     },
     "viewingDirection": "right-to-left",
     "within": "https://nakamura196.github.io/lda/"

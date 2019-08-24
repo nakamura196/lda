@@ -7,10 +7,18 @@ import json
 import urllib.request
 import os
 from PIL import Image
+import yaml
 
-path_metadata = "/Users/nakamura/git/lda/src/data/yanesen-01_10.xlsx"
-path_image = "/Users/nakamura/git/lda/src/data/yanesen_images.xlsx"
+config_path = "/Users/nakamura/git/min_a/lda/src/data/config.yml"
+f = open(config_path, "r+")
+config = yaml.load(f)
 
+data_dir = config["src_dir"] +"/data"
+path_metadata = data_dir+"/metadata.xlsx"
+path_image = data_dir+"/images.xlsx"
+manifest_dir = "/data/manifest/"
+odir = config["doc_dir"]+ manifest_dir
+prefix = config["prefix"]+ manifest_dir
 
 def get_id_image_map():
     df = pd.read_excel(path_image, sheet_name=0,
@@ -19,7 +27,6 @@ def get_id_image_map():
     map = {}
 
     r_count = len(df.index)
-    c_count = len(df.columns)
 
     for j in range(1, r_count):
 
@@ -38,18 +45,54 @@ df = pd.read_excel(path_metadata, sheet_name=0, header=None, index_col=None)
 r_count = len(df.index)
 c_count = len(df.columns)
 
+'''
 viewingDirection = "right-to-left"
 logo = "https://nakamura196.github.io/lda/assets/images/favicon.ico"
 within = "https://nakamura196.github.io/lda/"
 attribution = "地域文化資源デジタルアーカイブ"
 license = "http://creativecommons.org/licenses/by/4.0/"
-
-prefix = "https://nakamura196.github.io/lda/data/manifest/"
-odir = "/Users/nakamura/git/lda/docs/data/manifest/"
+'''
 
 id_image_map = get_id_image_map()
 
-for j in range(3, r_count):
+map = {}
+
+for i in range(1, c_count):
+    label = df.iloc[0, i]
+    uri = df.iloc[1, i]
+    # type = df.iloc[2, i]
+    target=df.iloc[3,i]
+
+    if target == "metadata":
+        obj = {}
+        map[i] = obj
+        obj["label"] = label
+
+    if uri == "http://purl.org/dc/terms/rights":
+        license_index = i
+    if label == "logo":
+        logo_index = i
+    if label == "attribution":
+        attribution_index = i
+    if label == "within":
+        within_index = i
+    if label == "viewingDirection":
+        viewingDirection_index = i
+    if uri == "http://purl.org/dc/terms/relation":
+        related_index = i
+
+    '''
+    if not pd.isnull(type):
+        obj = {}
+        map[i] = obj
+        obj["label"] = label
+        obj["uri"] = uri
+        obj["type"] = type
+    '''
+
+for j in range(4, r_count):
+
+    print(str(j)+"/"+str(r_count))
 
     seeAlso = df.iloc[j, 0]
 
@@ -57,22 +100,35 @@ for j in range(3, r_count):
 
     manifest_uri = seeAlso.replace("/json/", "/manifest/")
 
-    relation = "https://nakamura196.github.io/uv/?manifest="+manifest_uri
+    # relation = "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest="+manifest_uri
+    relation = df.iloc[j, related_index]
 
     title = df.iloc[j, 2]
+
+    metadata = []
+    for index in map:
+        value = df.iloc[j, index]
+        if not pd.isnull(value) and value != 0:
+            values = value.split(",")
+            for value in values:
+                metadata.append({
+                    "label": map[index]["label"],
+                    "value" : value.strip()
+                })
 
     manifest = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@type": "sc:Manifest",
         "@id": manifest_uri,
-        "license": license,
-        "attribution": attribution,
+        "license": df.iloc[j, license_index],
+        "attribution": df.iloc[j, attribution_index],
         "label": title,
-        "logo": logo,
-        "within": within,
-        "viewingDirection": viewingDirection,
+        "logo": df.iloc[j, logo_index],
+        "within": df.iloc[j, within_index],
+        "viewingDirection": df.iloc[j, viewingDirection_index],
         "seeAlso": seeAlso,
         "related": relation,
+        "metadata": metadata,
         "sequences": [
             {
                 "@type": "sc:Sequence",
@@ -93,7 +149,7 @@ for j in range(3, r_count):
 
         if i == 0:
             manifest["thumbnail"] = {
-                "@id" : img_url
+                "@id" : img_url.replace("/original/", "/medium/")
             }
 
         canvas_id = manifest_uri+"/canvas/p"+str(i+1)
@@ -108,7 +164,7 @@ for j in range(3, r_count):
             "@id": canvas_id,
             "label": canvas_label,
             "thumbnail": {
-                "@id" : img_url
+                "@id": img_url.replace("/original/", "/medium/")
             },
             "images": [
                 {
