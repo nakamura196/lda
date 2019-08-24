@@ -13,12 +13,14 @@ config_path = "/Users/nakamura/git/min_a/lda/src/data/config.yml"
 f = open(config_path, "r+")
 config = yaml.load(f)
 
+prefix2 = config["prefix"]
 data_dir = config["src_dir"] +"/data"
 path_metadata = data_dir+"/metadata.xlsx"
 path_image = data_dir+"/images.xlsx"
 manifest_dir = "/data/manifest/"
-odir = config["doc_dir"]+ manifest_dir
-prefix = config["prefix"]+ manifest_dir
+doc_dir = config["doc_dir"]
+odir = doc_dir+ manifest_dir
+prefix = prefix2 + manifest_dir
 
 def get_id_image_map():
     df = pd.read_excel(path_image, sheet_name=0,
@@ -57,7 +59,7 @@ id_image_map = get_id_image_map()
 
 map = {}
 
-for i in range(1, c_count):
+for i in range(0, c_count):
     label = df.iloc[0, i]
     uri = df.iloc[1, i]
     # type = df.iloc[2, i]
@@ -70,6 +72,14 @@ for i in range(1, c_count):
 
     if uri == "http://purl.org/dc/terms/rights":
         license_index = i
+    if uri == "http://purl.org/dc/terms/title":
+        title_index = i
+    if uri == "http://purl.org/dc/terms/description":
+        description_index = i
+    if uri == "http://www.w3.org/2000/01/rdf-schema#seeAlso":
+        seeAlso_index = i
+    if uri == "http://purl.org/dc/terms/identifier":
+        identifier_index = i
     if label == "logo":
         logo_index = i
     if label == "attribution":
@@ -94,16 +104,16 @@ for j in range(4, r_count):
 
     print(str(j)+"/"+str(r_count))
 
-    seeAlso = df.iloc[j, 0]
+    seeAlso = df.iloc[j, seeAlso_index]
 
-    id = df.iloc[j, 1]
+    id = df.iloc[j, identifier_index]
 
     manifest_uri = seeAlso.replace("/json/", "/manifest/")
 
     # relation = "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest="+manifest_uri
     relation = df.iloc[j, related_index]
 
-    title = df.iloc[j, 2]
+    title = df.iloc[j, title_index]
 
     metadata = []
     for index in map:
@@ -128,7 +138,6 @@ for j in range(4, r_count):
         "viewingDirection": df.iloc[j, viewingDirection_index],
         "seeAlso": seeAlso,
         "related": relation,
-        "metadata": metadata,
         "sequences": [
             {
                 "@type": "sc:Sequence",
@@ -139,6 +148,14 @@ for j in range(4, r_count):
             }
         ]
     }
+
+    if len(metadata) > 0:
+        manifest["metadata"] = metadata
+
+    if description_index != None:
+        value = df.iloc[j, description_index]
+        if not pd.isnull(value) and value != 0:
+            manifest["description"] = value
 
     canvases = manifest["sequences"][0]["canvases"]
 
@@ -156,7 +173,9 @@ for j in range(4, r_count):
 
         canvas_label = "["+str(i+1)+"]"
 
-        img = Image.open(urllib.request.urlopen(img_url))
+        img_path = img_url.replace(prefix2, doc_dir)
+
+        img = Image.open(img_path)
         width, height = img.size
 
         canvas = {

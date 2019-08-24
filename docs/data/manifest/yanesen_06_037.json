@@ -6,6 +6,12 @@
     "label": "本郷通りはガス燈ではなかったー平塚春造（日暮里）",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "平塚春造"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_06_037.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_06_037.json",
     "sequences": [

@@ -6,6 +6,12 @@
     "label": "鴎外と柳田国男ー多田正明（千駄木）",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "多田正明"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_06_039.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_06_039.json",
     "sequences": [

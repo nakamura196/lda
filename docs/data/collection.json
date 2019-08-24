@@ -3009,6 +3009,13 @@
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_025.json",
+            "@type": "sc:Manifest",
+            "label": "柏湯と善光寺湯",
+            "thumbnail": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-02/yanesen-02-007.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_06_007.json",
             "@type": "sc:Manifest",
             "label": "そろそろ熱燗のうまい頃 酒屋六十軒全調査",

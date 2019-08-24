@@ -6,6 +6,12 @@
     "label": "谷中・永久寺−剪画・文／石田良介",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "石田良介"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_09_024.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_09_024.json",
     "sequences": [

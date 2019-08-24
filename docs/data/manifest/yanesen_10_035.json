@@ -6,6 +6,12 @@
     "label": "坂のある風景−池の端・三段坂　棚谷勲",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "棚谷勲"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_10_035.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_10_035.json",
     "sequences": [

@@ -3,6 +3,7 @@
     "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_006.json",
     "@type": "sc:Manifest",
     "attribution": "地域文化資源デジタルアーカイブ",
+    "description": "三崎の地名由来とさんさき坂商店街の商店名地図",
     "label": "さんさき坂まっぷ",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",

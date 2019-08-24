@@ -6,6 +6,12 @@
     "label": "エッチング−千駄木・大給坂　棚谷勲",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "棚谷勲"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_09_001.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_09_001.json",
     "sequences": [

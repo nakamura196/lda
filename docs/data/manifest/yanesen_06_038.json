@@ -6,6 +6,12 @@
     "label": "色川国士邸は色部さん宅？ー吉田貞之助（元藪下在住）",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "吉田貞之助"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_06_038.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_06_038.json",
     "sequences": [

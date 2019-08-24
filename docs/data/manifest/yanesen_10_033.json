@@ -6,6 +6,12 @@
     "label": "著者自筆広告No.7−諏訪優「芥川龍之介の俳句を歩く」踏青社",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "諏訪優"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_10_033.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_10_033.json",
     "sequences": [

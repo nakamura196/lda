@@ -6,7 +6,6 @@
     "label": "じょーほートピックス",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
-    "metadata": [],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_05_033.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_05_033.json",
     "sequences": [

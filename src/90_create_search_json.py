@@ -9,9 +9,9 @@ import os
 from PIL import Image
 import glob
 
-collection_uri = "https://archdataset.dl.itc.u-tokyo.ac.jp/collections/fujikawa/image/collection.json"
+collection_uri = "https://nakamura196.github.io/lda/data/collection.json"
 
-odir = "tmp"
+odir = "../docs/data/items.json"
 
 size = 10
 
@@ -75,37 +75,38 @@ for i in range(len(manifests)):
     if "description" in manifest:
         obj["description"] = manifest["description"]
 
-    for metadata in manifest["metadata"]:
-        label = metadata["label"]
-        value = metadata["value"]
+    if "metadata" in manifest:
+        for metadata in manifest["metadata"]:
+            label = metadata["label"]
+            value = metadata["value"]
 
-        if isinstance(value, list):
-            values = value
-        else:
-            values = [value]
+            if isinstance(value, list):
+                values = value
+            else:
+                values = [value]
 
-        for value in values:
+            for value in values:
 
-            if "http" not in value:
+                if "http" not in value:
 
-                if label not in aggregations:
-                    aggregations[label] = {
-                        "title": label,
-                        "map" : {}
-                    }
+                    if label not in aggregations:
+                        aggregations[label] = {
+                            "title": label,
+                            "map" : {}
+                        }
 
-                if label not in obj:
-                    obj[label] = []
+                    if label not in obj:
+                        obj[label] = []
 
-                map = aggregations[label]["map"]
+                    map = aggregations[label]["map"]
 
-                if value not in map:
-                    map[value] = 0
+                    if value not in map:
+                        map[value] = 0
 
-                map[value] = map[value] + 1
+                    map[value] = map[value] + 1
 
-                obj[label].append(value)
-                fulltext += " "+value
+                    obj[label].append(value)
+                    fulltext += " "+value
 
     obj["fulltext"] = fulltext
     data.append(obj)

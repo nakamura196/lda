@@ -6,6 +6,12 @@
     "label": "水晶ローソク遺聞　町工場の夏　清水小百合",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "清水小百合"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_06_030.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_06_030.json",
     "sequences": [

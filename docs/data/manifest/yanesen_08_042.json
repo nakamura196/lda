@@ -6,6 +6,12 @@
     "label": "夢うらなひ",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "creator",
+            "value": "時本和夫"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_08_042.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_08_042.json",
     "sequences": [

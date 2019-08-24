@@ -3,6 +3,7 @@
     "@id": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_010.json",
     "@type": "sc:Manifest",
     "attribution": "地域文化資源デジタルアーカイブ",
+    "description": "明治時代の文学者による菊人形祭りの描写の引用",
     "label": "文学に現れた菊人形",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
