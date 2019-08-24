@@ -14,7 +14,7 @@
         <a href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://nakamura196.github.io/lda/data/collection.json" class="nav-link">画像一覧</a>
     </li>
     <li class="nav-item">
-        <a href="https://nakamura196.github.io/iiif_search/?u=https://nakamura196.github.io/lda/data/items.json" class="nav-link">メタデータ検索</a>
+        <a href="https://nakamura196.github.io/isearch/?u=https://nakamura196.github.io/lda/data/items.json" class="nav-link">メタデータ検索</a>
     </li>
     <li class="nav-item">
         <a href="https://www.kanzaki.com/works/2016/pub/image-annotator?u=https://nakamura196.github.io/lda/data/acollection.json" class="nav-link">テキスト検索</a>
