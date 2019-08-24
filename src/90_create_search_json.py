@@ -11,7 +11,7 @@ import glob
 
 collection_uri = "https://nakamura196.github.io/lda/data/collection.json"
 
-odir = "../docs/data/items.json"
+odir = "../docs/data"
 
 size = 10
 
@@ -79,6 +79,9 @@ for i in range(len(manifests)):
         for metadata in manifest["metadata"]:
             label = metadata["label"]
             value = metadata["value"]
+
+            if label == "description":
+                label = "description_"
 
             if isinstance(value, list):
                 values = value

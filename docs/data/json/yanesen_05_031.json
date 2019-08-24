@@ -8,12 +8,22 @@
     ],
     "http://purl.org/dc/terms/relation": [
       {
-        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_05_031.json"
+        "@id": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_05_031.json"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
       }
     ],
     "http://purl.org/dc/terms/title": [
       {
         "@value": "自分のためには汗を流し人の為めには涙を流せ 皆さんの汗は太郎湯で流す　銭湯特集補遺　太郎湯（田端）"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/json/yanesen_05_031.json"
       }
     ],
     "http://xmlns.com/foaf/0.1/thumbnail": [

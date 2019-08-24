@@ -18,7 +18,12 @@
     ],
     "http://purl.org/dc/terms/relation": [
       {
-        "@id": "https://nakamura196.github.io/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_010.json"
+        "@id": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_01_010.json"
+      }
+    ],
+    "http://purl.org/dc/terms/rights": [
+      {
+        "@id": "http://creativecommons.org/licenses/by/4.0/"
       }
     ],
     "http://purl.org/dc/terms/subject": [
@@ -29,6 +34,11 @@
     "http://purl.org/dc/terms/title": [
       {
         "@value": "文学に現れた菊人形"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://nakamura196.github.io/lda/data/json/yanesen_01_010.json"
       }
     ],
     "http://xmlns.com/foaf/0.1/thumbnail": [

@@ -9,9 +9,21 @@ import os
 from PIL import Image
 import glob
 
-odir = "/Users/nakamura/git/lda/docs/data/"
+import yaml
 
-opath = "data/thumbnails.xlsx"
+config_path = "/Users/nakamura/git/min_a/lda/src/data/config.yml"
+f = open(config_path, "r+")
+config = yaml.load(f)
+
+prefix2 = config["prefix"]
+
+collection_uri = prefix2+"/data/collection.json"
+prefix = prefix2+"/data/"
+odir = config["doc_dir"]+"/data/"
+
+####
+
+opath = config["src_dir"]+"/logs/thumbnails.xlsx"
 files = glob.glob(odir+"manifest/*.json")
 
 rows = []

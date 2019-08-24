@@ -19,6 +19,8 @@ import sys
 import argparse
 import json
 
+import yaml
+
 
 def parse_args(args=sys.argv[1:]):
     """ Get the parsed arguments specified on this script.
@@ -26,78 +28,62 @@ def parse_args(args=sys.argv[1:]):
     parser = argparse.ArgumentParser(description="")
 
     parser.add_argument(
-        'path',
+        'config_path',
         action='store',
         type=str,
-        help='Ful path.')
+        help='config path.')
 
     return parser.parse_args(args)
 
 
 args = parse_args()
 
-path = args.path
+config_path = args.config_path
+f = open(config_path, "r+")
+config = yaml.load(f)
 
+odir = config["doc_dir"]
+path_metadata = config["src_dir"] + "/data/metadata.xlsx"
+opath = odir + "/data/data.xlsx"
 
-opath = "../docs/data/metadata.xlsx"
-
-df = pd.read_excel(path, sheet_name=0, header=None, index_col=None)
+df = pd.read_excel(path_metadata, sheet_name=0, header=None, index_col=None)
 
 r_count = len(df.index)
 c_count = len(df.columns)
 
 map = {}
 
-for i in range(1, c_count):
+for i in range(0, c_count):
     label = df.iloc[0, i]
     uri = df.iloc[1, i]
     type = df.iloc[2, i]
+    target = df.iloc[3, i]
 
-    if not pd.isnull(type):
+    if not pd.isnull(target) and target == "metadata":
         obj = {}
         map[i] = obj
         obj["label"] = label
-        obj["uri"] = uri
-        obj["type"] = type
+
+    if uri == "http://purl.org/dc/terms/relation":
+        relation_index = i
 
 result = []
 row0 = []
-row1 = []
 for i in map:
     obj = map[i]
     row0.append(obj["label"])
-    row1.append(obj["uri"])
 
-'''
-row0.append("SeeAlso")
-row0.append("IIIF Manifest")
-row0.append("Relation")
-
-row1.append("rdfs:seeAlso")
-row1.append("dcterms:identifier")
-row1.append("dcterms:relation")
-'''
+row0.append("relation")
 
 result.append(row0)
-result.append(row1)
 
-for j in range(3, r_count):
-    subject = df.iloc[j, 0]
+for j in range(4, r_count):
     row = []
     result.append(row)
     for i in map:
         value = df.iloc[j, i]
         row.append(value)
-
-    '''    
-    row.append(subject)
-
-    manifest = subject.replace("/json/", "/manifest/")
-    row.append(manifest)
-
-    relation = "https://nakamura196.github.io/uv/?manifest="+manifest
-    row.append(relation)
-    '''
+    row.append(df.iloc[j, relation_index])
 
 
 df = pd.DataFrame(result)
