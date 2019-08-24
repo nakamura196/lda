@@ -70,7 +70,8 @@ for i in range(len(manifests)):
     obj = {
         "label" : manifest["label"],
         "related" : manifest["relation"],
-        "thumbnail" : manifest["thumbnail"]["@id"]
+        "thumbnail" : manifest["thumbnail"]["@id"],
+        "manifest": manifest["@id"]
     }
 
     manifest["metadata"] = [

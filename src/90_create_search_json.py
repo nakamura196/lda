@@ -66,7 +66,8 @@ for i in range(len(manifests)):
 
     obj = {
         "label": manifest["label"],
-        "related": manifest["related"]
+        "related": manifest["related"],
+        "manifest": manifest["@id"]
     }
 
     obj["thumbnail"] = thumbnail
