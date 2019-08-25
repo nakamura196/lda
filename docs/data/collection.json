@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://nakamura196.github.io/lda/data/collection.json",
     "@type": "sc:Collection",
-    "label": "IIIF Collection",
+    "label": "地域文化資源デジタルアーカイブ",
     "manifests": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",

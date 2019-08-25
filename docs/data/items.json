@@ -1,5 +1,6 @@
 {
     "config": {
+        "label": "地域文化資源デジタルアーカイブ",
         "aggregations": {
             "creator": {
                 "size": 10,
