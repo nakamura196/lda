@@ -6,10 +6,6 @@
                 "size": 10,
                 "title": "creator"
             },
-            "spatial": {
-                "size": 10,
-                "title": "spatial"
-            },
             "subject": {
                 "size": 10,
                 "title": "subject"
@@ -21,11 +17,11 @@
             "fulltext"
         ],
         "sortings": {
-            "label_asc": {
+            "label asc": {
                 "field": "label",
                 "order": "asc"
             },
-            "label_desc": {
+            "label desc": {
                 "field": "label",
                 "order": "desc"
             }
