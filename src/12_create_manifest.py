@@ -8,19 +8,20 @@ import urllib.request
 import os
 from PIL import Image
 import yaml
+import requests
 
 config_path = "/Users/nakamura/git/min_a/lda/src/data/config.yml"
 f = open(config_path, "r+")
 config = yaml.load(f)
 
-prefix2 = config["prefix"]
+image_api = config["prefix"]
 data_dir = config["src_dir"] +"/data"
 path_metadata = data_dir+"/metadata.xlsx"
 path_image = data_dir+"/images.xlsx"
 manifest_dir = "/data/manifest/"
 doc_dir = config["doc_dir"]
 odir = doc_dir+ manifest_dir
-prefix = prefix2 + manifest_dir
+prefix = image_api + manifest_dir
 
 def get_id_image_map():
     df = pd.read_excel(path_image, sheet_name=0,
@@ -164,26 +165,46 @@ for j in range(4, r_count):
 
         img_url = images[i]
 
-        if i == 0:
-            manifest["thumbnail"] = {
-                "@id" : img_url.replace("/original/", "/medium/")
+        if "info.json" in img_url:
+
+            r = requests.get(img_url)
+            info = r.json()
+
+            image_api = img_url.replace("/info.json", "")
+
+            thumbnail = image_api+"/full/"+str(info["sizes"][0]["width"])+",/0/default.jpg"
+
+            width = info["width"]
+            height = info["height"]
+
+            service = {
+                "@context": info["@context"],
+                "@id": image_api,
+                "profile": info["profile"][0]
             }
+
+            img_id = image_api+"/full/full/0/default.jpg"
+
+        else:
+            thumbnail = img_url.replace("/original/", "/medium/")
+
+            img_path = img_url.replace(image_api, doc_dir)
+
+            img = Image.open(img_path)
+            width, height = img.size
+
+            img_id = img_url
 
         canvas_id = manifest_uri+"/canvas/p"+str(i+1)
 
         canvas_label = "["+str(i+1)+"]"
-
-        img_path = img_url.replace(prefix2, doc_dir)
-
-        img = Image.open(img_path)
-        width, height = img.size
 
         canvas = {
             "@type": "sc:Canvas",
             "@id": canvas_id,
             "label": canvas_label,
             "thumbnail": {
-                "@id": img_url.replace("/original/", "/medium/")
+                "@id": thumbnail
             },
             "images": [
                 {
@@ -195,7 +216,7 @@ for j in range(4, r_count):
                         "format": "image/jpeg",
                         "width" : width,
                         "height" : height,
-                        "@id": img_url
+                        "@id": img_id
                     },
                     "on": canvas_id
                 }
@@ -203,6 +224,17 @@ for j in range(4, r_count):
             "width": width,
             "height": height
         }
+
+        if i == 0:
+            manifest["thumbnail"] = {
+                "@id" : thumbnail
+            }
+
+        if "info.json" in img_url:
+            canvas["thumbnail"]["service"] = service
+            canvas["images"][0]["resource"]["service"] = service
+            # canvas["images"][0]["resource"]["service"]["width"] = width
+            # canvas["images"][0]["resource"]["service"]["height"] = height
 
         canvases.append(canvas)
 

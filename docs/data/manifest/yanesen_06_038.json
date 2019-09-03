@@ -8,6 +8,14 @@
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
     "metadata": [
         {
+            "label": "ID",
+            "value": "yanesen/06/038"
+        },
+        {
+            "label": "title",
+            "value": "色川国士邸は色部さん宅？ー吉田貞之助（元藪下在住）"
+        },
+        {
             "label": "creator",
             "value": "吉田貞之助"
         }
@@ -30,17 +38,27 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_06_038.json/canvas/p1",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-06/yanesen-06-018.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-06/yanesen-06-018/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-06/yanesen-06-018",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
                                 "width": 3680
                             }
                         }
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-06/yanesen-06-018.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-06/yanesen-06-018/full/115,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-06/yanesen-06-018",
+                            "profile": "http://iiif.io/api/image/2/level0.json"
+                        }
                     },
                     "width": 3680
                 }
@@ -50,7 +68,7 @@
         }
     ],
     "thumbnail": {
-        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-06/yanesen-06-018.jpg"
+        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-06/yanesen-06-018/full/115,/0/default.jpg"
     },
     "viewingDirection": "right-to-left",
     "within": "https://nakamura196.github.io/lda/"

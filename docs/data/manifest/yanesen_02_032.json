@@ -6,6 +6,16 @@
     "label": "千三北町会の防災訓練",
     "license": "http://creativecommons.org/licenses/by/4.0/",
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "ID",
+            "value": "yanesen/02/032"
+        },
+        {
+            "label": "title",
+            "value": "千三北町会の防災訓練"
+        }
+    ],
     "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/data/manifest/yanesen_02_032.json",
     "seeAlso": "https://nakamura196.github.io/lda/data/json/yanesen_02_032.json",
     "sequences": [
@@ -24,17 +34,27 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_02_032.json/canvas/p1",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-02/yanesen-02-011.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-02/yanesen-02-011/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-02/yanesen-02-011",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
                                 "width": 3680
                             }
                         }
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-02/yanesen-02-011.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-02/yanesen-02-011/full/115,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-02/yanesen-02-011",
+                            "profile": "http://iiif.io/api/image/2/level0.json"
+                        }
                     },
                     "width": 3680
                 }
@@ -44,7 +64,7 @@
         }
     ],
     "thumbnail": {
-        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-02/yanesen-02-011.jpg"
+        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-02/yanesen-02-011/full/115,/0/default.jpg"
     },
     "viewingDirection": "right-to-left",
     "within": "https://nakamura196.github.io/lda/"

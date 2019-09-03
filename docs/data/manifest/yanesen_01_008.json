@@ -8,6 +8,14 @@
     "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
     "metadata": [
         {
+            "label": "ID",
+            "value": "yanesen/01/008"
+        },
+        {
+            "label": "title",
+            "value": "薮そば遺聞"
+        },
+        {
             "label": "subject",
             "value": "キク"
         },
@@ -54,17 +62,27 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/lda/data/manifest/yanesen_01_008.json/canvas/p1",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/lda/data/image/original/yanesen/yanesen-01/yanesen-01-005.jpg",
+                                "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2456,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005",
+                                    "profile": "http://iiif.io/api/image/2/level0.json"
+                                },
                                 "width": 3680
                             }
                         }
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-01/yanesen-01-005.jpg"
+                        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005/full/115,/0/default.jpg",
+                        "service": {
+                            "@context": "http://iiif.io/api/image/2/context.json",
+                            "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005",
+                            "profile": "http://iiif.io/api/image/2/level0.json"
+                        }
                     },
                     "width": 3680
                 }
@@ -74,7 +92,7 @@
         }
     ],
     "thumbnail": {
-        "@id": "https://nakamura196.github.io/lda/data/image/medium/yanesen/yanesen-01/yanesen-01-005.jpg"
+        "@id": "https://nakamura196.github.io/lda/data/image/tile/yanesen/yanesen-01/yanesen-01-005/full/115,/0/default.jpg"
     },
     "viewingDirection": "right-to-left",
     "within": "https://nakamura196.github.io/lda/"
