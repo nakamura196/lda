@@ -52,7 +52,7 @@ collection = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": collection_uri,
     "@type": "sc:Collection",
-    "label": "地域文化資源デジタルアーカイブ",
+    "label": "谷根千デジタルアーカイブ",
     "vhint": "use-thumb",
     "manifests": manifests
 }
