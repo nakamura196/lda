@@ -1,0 +1,60 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_07_024/manifest.json",
+    "@type": "sc:Manifest",
+    "attribution": "地域文化資源デジタルアーカイブ",
+    "label": "やったネ！根津寄席−芸術祭賞おめでとう−",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "logo": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+    "metadata": [
+        {
+            "label": "ID",
+            "value": "yanesen/07/024"
+        },
+        {
+            "label": "title",
+            "value": "やったネ！根津寄席−芸術祭賞おめでとう−"
+        }
+    ],
+    "related": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/iiif/2/yanesen_07_024/manifest.json",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_07_024/manifest.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_07_024/manifest.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2456,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_07_024/manifest.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/lda/iiif/2/yanesen_07_024/manifest.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/lda/files/original/yanesen-07/yanesen-07-009.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "width": 3680
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/lda/files/medium/yanesen-07/yanesen-07-009.jpg"
+                    },
+                    "width": 3680
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/lda/files/medium/yanesen-07/yanesen-07-009.jpg"
+    },
+    "viewingDirection": "right-to-left",
+    "within": "https://nakamura196.github.io/lda/"
+}
