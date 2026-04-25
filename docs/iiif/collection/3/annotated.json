@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://nakamura196.github.io/lda/iiif/collection/annotated.json",
+    "id": "https://nakamura196.github.io/lda/iiif/collection/3/annotated.json",
     "type": "Collection",
     "label": {
         "ja": [
