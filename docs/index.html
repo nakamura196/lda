@@ -9,6 +9,14 @@
     <meta property="og:description" content="谷根千エリアの地域文化資源を IIIF Presentation API v2 で公開するデジタルアーカイブ。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://nakamura196.github.io/lda/">
+    <meta property="og:image" content="https://nakamura196.github.io/lda/assets/images/ogp.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="地域文化資源デジタルアーカイブ">
+    <meta name="twitter:description" content="谷根千エリアの地域文化資源を IIIF Presentation API v2 で公開するデジタルアーカイブ。">
+    <meta name="twitter:image" content="https://nakamura196.github.io/lda/assets/images/ogp.jpg">
+    <link rel="icon" href="assets/images/favicon.ico" sizes="any">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -133,6 +141,80 @@
             background: var(--accent-hover);
         }
 
+        /* ---- Collection cards ---- */
+        .collection-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+        .collection-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+        .collection-card:hover {
+            border-color: #cbd5e1;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 4px 12px rgba(15, 23, 42, 0.04);
+        }
+        .collection-card-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .collection-card-badge {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            color: var(--accent);
+            background: var(--bg-alt);
+            border: 1px solid var(--border);
+            padding: 0.2rem 0.55rem;
+            border-radius: 999px;
+        }
+        .collection-card-count {
+            font-size: 0.85rem;
+            color: var(--muted);
+            font-weight: 500;
+        }
+        .collection-card-title {
+            margin: 0.25rem 0 0;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .collection-card-desc {
+            margin: 0 0 0.5rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .collection-card .btn.primary {
+            justify-content: center;
+            width: 100%;
+        }
+        .data-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+        }
+        .data-link:hover {
+            color: var(--fg);
+            text-decoration: none;
+        }
+        .data-link-icon {
+            font-weight: 700;
+        }
+
         /* ---- Sections ---- */
         section.block {
             max-width: var(--max);
@@ -242,10 +324,31 @@
             国際的な相互運用規格に準拠し、画像・メタデータ・アノテーションをオープンに提供します。
             Theseus Viewer / Mirador / Universal Viewer などの IIIF 対応ビューワーから直接読み込めます。
         </p>
-        <div class="cta-row">
-            <a class="btn primary" href="iiif/collection/collection.json">IIIF Collection を開く</a>
-            <a class="btn" href="https://theseusviewer.org/?iiif-content=https://nakamura196.github.io/lda/iiif/collection/collection.json" target="_blank" rel="noopener">Theseus Viewer で開く ↗</a>
-            <a class="btn" href="iiif/collection/annotated.json">アノテーション付き Collection</a>
+        <div class="collection-cards">
+            <article class="collection-card">
+                <div class="collection-card-head">
+                    <span class="collection-card-badge">全件</span>
+                    <span class="collection-card-count">446 件</span>
+                </div>
+                <h3 class="collection-card-title">IIIF Collection</h3>
+                <p class="collection-card-desc">谷根千エリアの地域文化資源すべてを収録。</p>
+                <a class="btn primary" href="https://theseusviewer.org/?iiif-content=https://nakamura196.github.io/lda/iiif/collection/collection.json" target="_blank" rel="noopener">Theseus Viewer で開く ↗</a>
+                <a class="data-link" href="iiif/collection/collection.json">
+                    <span class="data-link-icon">↓</span> データ (JSON)
+                </a>
+            </article>
+            <article class="collection-card">
+                <div class="collection-card-head">
+                    <span class="collection-card-badge">注釈付き</span>
+                    <span class="collection-card-count">14 件</span>
+                </div>
+                <h3 class="collection-card-title">Annotated Collection</h3>
+                <p class="collection-card-desc">アノテーションが付与された資料のサブセット。</p>
+                <a class="btn primary" href="https://theseusviewer.org/?iiif-content=https://nakamura196.github.io/lda/iiif/collection/annotated.json" target="_blank" rel="noopener">Theseus Viewer で開く ↗</a>
+                <a class="data-link" href="iiif/collection/annotated.json">
+                    <span class="data-link-icon">↓</span> データ (JSON)
+                </a>
+            </article>
         </div>
     </section>
 
