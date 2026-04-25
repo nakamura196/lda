@@ -1,6 +1,9 @@
 # 地域文化資源デジタルアーカイブ
 
-谷根千エリアの地域文化資源を IIIF Presentation API v2 で公開するデジタルアーカイブ。
+1984年に谷根千工房が創刊した地域雑誌『谷中・根津・千駄木』1〜10号とその関連資料を、[地域文化資源デジタルアーカイブ・プロジェクト](https://tcha.jp/pts/lcrd/)の活動の一環として、谷根千工房・森まゆみ氏の協力のもとデジタルアーカイブ化したものです。画像・メタデータ・アノテーションをオープンに公開しています。
+
+- 公開サイト: <https://nakamura196.github.io/lda/>
+- プロジェクトサイト: <http://lda.tcha.jp/>
 
 ## エンドポイント
 
@@ -33,6 +36,12 @@ src/data/                   元データ
 ├── metadata.xlsx
 └── images.xlsx
 ```
+
+## クレジット
+
+- プロジェクト: [地域文化資源デジタルアーカイブ](https://tcha.jp/pts/lcrd/)
+- 協力: 谷根千工房 / 森 まゆみ 氏
+- 規格: [IIIF Presentation API 2.1](https://iiif.io/api/presentation/2.1/)
 
 ## ライセンス
 
