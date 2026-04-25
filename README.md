@@ -11,7 +11,7 @@
 
 - IIIF Collection（全446件）: `/iiif/collection/3/collection.json`
 - IIIF Collection（アノテーション付き14件）: `/iiif/collection/3/annotated.json`
-- IIIF Manifest: `/iiif/2/{id}/manifest.json`（`{id}` は `yanesen_XX_XXX`）
+- IIIF Manifest: `/iiif/3/{id}/manifest.json`（`{id}` は `yanesen_XX_XXX`）
 - 画像（オリジナル）: `/files/original/yanesen-XX/yanesen-XX-XXX.jpg`
 - 画像（中サイズ）: `/files/medium/yanesen-XX/yanesen-XX-XXX.jpg`
 

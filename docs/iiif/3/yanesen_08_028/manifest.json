@@ -1,0 +1,134 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_08_028/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "ja": [
+            "谷中のカエル−野沢延行（獣医・谷中在住）"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "ja": [
+                    "ID"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "yanesen/08/028"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "title"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "谷中のカエル−野沢延行（獣医・谷中在住）"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "creator"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "野沢延行"
+                ]
+            }
+        }
+    ],
+    "thumbnail": [
+        {
+            "id": "https://nakamura196.github.io/lda/files/medium/yanesen-08/yanesen-08-015.jpg",
+            "type": "Image",
+            "format": "image/jpeg"
+        }
+    ],
+    "viewingDirection": "right-to-left",
+    "rights": "http://creativecommons.org/licenses/by/4.0/",
+    "requiredStatement": {
+        "label": {
+            "ja": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "ja": [
+                "地域文化資源デジタルアーカイブ"
+            ]
+        }
+    },
+    "logo": [
+        {
+            "id": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+            "type": "Image"
+        }
+    ],
+    "homepage": [
+        {
+            "id": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/iiif/3/yanesen_08_028/manifest.json",
+            "type": "Text",
+            "label": {
+                "ja": [
+                    "Homepage"
+                ]
+            },
+            "format": "text/html"
+        }
+    ],
+    "partOf": [
+        {
+            "id": "https://nakamura196.github.io/lda/",
+            "type": "Collection"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_08_028/manifest.json/canvas/p1",
+            "type": "Canvas",
+            "height": 2456,
+            "width": 3680,
+            "label": {
+                "ja": [
+                    "[1]"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://nakamura196.github.io/lda/files/medium/yanesen-08/yanesen-08-015.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_08_028/manifest.json/canvas/p1/page/p1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_08_028/manifest.json/annotation/p1-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://nakamura196.github.io/lda/files/original/yanesen-08/yanesen-08-015.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "width": 3680
+                            },
+                            "target": "https://nakamura196.github.io/lda/iiif/3/yanesen_08_028/manifest.json/canvas/p1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

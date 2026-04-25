@@ -1,0 +1,18 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_02_001/list/p0001-annolist.json",
+    "type": "AnnotationPage",
+    "items": [
+        {
+            "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_02_001/manifest.json/canvas/p1#xywh=1659,735,611,1233",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+                "type": "TextualBody",
+                "value": "Person",
+                "format": "text/plain"
+            },
+            "target": "https://nakamura196.github.io/lda/iiif/3/yanesen_02_001/manifest.json/canvas/p1#xywh=1659,735,611,1233"
+        }
+    ]
+}

@@ -1,0 +1,259 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_01_005/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "ja": [
+            "笠森お仙伝説"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "ja": [
+                    "ID"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "yanesen/01/005"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "title"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "笠森お仙伝説"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "錦絵"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "鈴木春信"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "笠森お仙"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "笹川臨風"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "永井荷風"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "感応寺"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "功徳林寺"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "subject"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "笠森稲荷"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "description"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "錦絵草創者・鈴木春信と明和の美女・笠森お仙にまつわる逸話"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "spatial"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "35.7249583"
+                ]
+            }
+        },
+        {
+            "label": {
+                "ja": [
+                    "spatial"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "139.7667488"
+                ]
+            }
+        }
+    ],
+    "summary": {
+        "ja": [
+            "錦絵草創者・鈴木春信と明和の美女・笠森お仙にまつわる逸話"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "https://nakamura196.github.io/lda/files/medium/yanesen-01/yanesen-01-003.jpg",
+            "type": "Image",
+            "format": "image/jpeg"
+        }
+    ],
+    "viewingDirection": "right-to-left",
+    "rights": "http://creativecommons.org/licenses/by/4.0/",
+    "requiredStatement": {
+        "label": {
+            "ja": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "ja": [
+                "地域文化資源デジタルアーカイブ"
+            ]
+        }
+    },
+    "logo": [
+        {
+            "id": "https://nakamura196.github.io/lda/assets/images/favicon.ico",
+            "type": "Image"
+        }
+    ],
+    "homepage": [
+        {
+            "id": "http://da.dl.itc.u-tokyo.ac.jp/uv/?manifest=https://nakamura196.github.io/lda/iiif/3/yanesen_01_005/manifest.json",
+            "type": "Text",
+            "label": {
+                "ja": [
+                    "Homepage"
+                ]
+            },
+            "format": "text/html"
+        }
+    ],
+    "partOf": [
+        {
+            "id": "https://nakamura196.github.io/lda/",
+            "type": "Collection"
+        }
+    ],
+    "items": [
+        {
+            "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_01_005/manifest.json/canvas/p1",
+            "type": "Canvas",
+            "height": 2456,
+            "width": 3680,
+            "label": {
+                "ja": [
+                    "[1]"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://nakamura196.github.io/lda/files/medium/yanesen-01/yanesen-01-003.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg"
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_01_005/manifest.json/canvas/p1/page/p1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_01_005/manifest.json/annotation/p1-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://nakamura196.github.io/lda/files/original/yanesen-01/yanesen-01-003.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2456,
+                                "width": 3680
+                            },
+                            "target": "https://nakamura196.github.io/lda/iiif/3/yanesen_01_005/manifest.json/canvas/p1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

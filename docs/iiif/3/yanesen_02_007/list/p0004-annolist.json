@@ -1,0 +1,18 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://nakamura196.github.io/lda/iiif/3/yanesen_02_007/list/p0004-annolist.json",
+    "type": "AnnotationPage",
+    "items": [
+        {
+            "id": "anbase:7fd22ae7a88a5ea7c906fb3f150fa0c2",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+                "type": "TextualBody",
+                "value": "富久の湯",
+                "format": "text/plain"
+            },
+            "target": "https://nakamura196.github.io/lda/iiif/3/yanesen_02_007/manifest.json/canvas/p4#xywh=1327,446,69,211"
+        }
+    ]
+}
