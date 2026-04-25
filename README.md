@@ -24,10 +24,10 @@ docs/                       公開コンテンツ（GitHub Pages）
 │   ├── original/           オリジナル画像
 │   └── medium/             中サイズ画像
 └── iiif/
-    ├── 2/{id}/             IIIF Presentation v2 マニフェスト
+    ├── 2/{id}/             IIIF Presentation v3 マニフェスト（パスは互換性のため /2/ のまま）
     │   ├── manifest.json
-    │   ├── curation.json   （アノテーション付きアイテムのみ）
-    │   └── list/*.json     （AnnotationList）
+    │   ├── curation.json   （アノテーション付きアイテムのみ。Curation 拡張のため v2 形式を保持）
+    │   └── list/*.json     （AnnotationPage）
     └── collection/         IIIF Collection
         ├── collection.json
         └── annotated.json
@@ -41,7 +41,7 @@ src/data/                   元データ
 
 - プロジェクト: [地域文化資源デジタルアーカイブ](https://tcha.jp/pts/lcrd/)
 - 協力: 谷根千工房 / 森 まゆみ 氏
-- 規格: [IIIF Presentation API 2.1](https://iiif.io/api/presentation/2.1/)
+- 規格: [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/)
 
 ## ライセンス
 

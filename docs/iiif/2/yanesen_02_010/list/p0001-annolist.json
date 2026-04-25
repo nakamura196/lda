@@ -1,40 +1,40 @@
 {
-    "@context": "http://www.shared-canvas.org/ns/context.json",
-    "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/list/p0001-annolist.json",
-    "@type": "sc:AnnotationList",
-    "resources": [
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/list/p0001-annolist.json",
+    "type": "AnnotationPage",
+    "items": [
         {
-            "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=706,1546,304,434",
-            "@type": "oa:Annotation",
-            "motivation": "sc:painting",
-            "on": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=706,1546,304,434",
-            "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "Person",
+            "id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=706,1546,304,434",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+                "type": "TextualBody",
+                "value": "Person",
                 "format": "text/plain"
-            }
+            },
+            "target": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=706,1546,304,434"
         },
         {
-            "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1471,1556,310,444",
-            "@type": "oa:Annotation",
-            "motivation": "sc:painting",
-            "on": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1471,1556,310,444",
-            "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "Person",
+            "id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1471,1556,310,444",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+                "type": "TextualBody",
+                "value": "Person",
                 "format": "text/plain"
-            }
+            },
+            "target": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1471,1556,310,444"
         },
         {
-            "@id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1111,1548,379,337",
-            "@type": "oa:Annotation",
-            "motivation": "sc:painting",
-            "on": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1111,1548,379,337",
-            "resource": {
-                "@type": "cnt:ContentAsText",
-                "chars": "Person",
+            "id": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1111,1548,379,337",
+            "type": "Annotation",
+            "motivation": "painting",
+            "body": {
+                "type": "TextualBody",
+                "value": "Person",
                 "format": "text/plain"
-            }
+            },
+            "target": "https://nakamura196.github.io/lda/iiif/2/yanesen_02_010/manifest.json/canvas/p1#xywh=1111,1548,379,337"
         }
     ]
 }
