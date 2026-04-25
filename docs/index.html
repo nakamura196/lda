@@ -237,6 +237,39 @@
             letter-spacing: -0.01em;
         }
 
+        /* ---- News ---- */
+        .news-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            overflow: hidden;
+            background: var(--bg);
+        }
+        .news-list li {
+            display: grid;
+            grid-template-columns: 130px 1fr;
+            gap: 1.25rem;
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid var(--border);
+            align-items: baseline;
+        }
+        .news-list li:last-child { border-bottom: 0; }
+        .news-list time {
+            color: var(--muted);
+            font-size: 0.85rem;
+            font-family: "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+            font-variant-numeric: tabular-nums;
+        }
+        .news-list span {
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+        @media (max-width: 640px) {
+            .news-list li { grid-template-columns: 1fr; gap: 0.25rem; }
+        }
+
         /* ---- Endpoints ---- */
         .endpoints {
             display: grid;
@@ -311,6 +344,7 @@
             <div class="brand">地域文化資源デジタルアーカイブ</div>
             <nav class="primary">
                 <a href="#about">概要</a>
+                <a href="#news">お知らせ</a>
                 <a href="#api">API</a>
                 <a href="#credits">クレジット</a>
             </nav>
@@ -351,6 +385,17 @@
                 </a>
             </article>
         </div>
+    </section>
+
+    <section class="block" id="news">
+        <h2>News</h2>
+        <h3>お知らせ</h3>
+        <ul class="news-list">
+            <li>
+                <time datetime="2026-04-26">2026-04-26</time>
+                <span>サイトをリニューアル公開しました。Vue 製の SPA を廃止し、IIIF Presentation v2 の静的 JSON と GitHub Pages による配信に再構成。閲覧環境は <a href="https://theseusviewer.org/" target="_blank" rel="noopener">Theseus Viewer</a> を案内する形に変更しました。</span>
+            </li>
+        </ul>
     </section>
 
     <section class="block" id="api">
