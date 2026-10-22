@@ -1,0 +1,10 @@
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,記事名,,,DCTERMS.title,headline
+issue,号,true,,DCTERMS.isPartOf,isPartOf
+creator,執筆・作画,true,,DCTERMS.creator,creator
+subject,キーワード,true,,DCTERMS.subject,keywords
+description,内容,,,DCTERMS.description,description
+references,参照文献,,,DCTERMS.references,
+note,種別・備考,true,,,
+rights,利用条件,,,DCTERMS.rights,license
+rightsstatement,ライセンス,,true,,

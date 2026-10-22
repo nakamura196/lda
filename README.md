@@ -17,24 +17,24 @@
 
 ## 構成
 
-```
-docs/                       公開コンテンツ（GitHub Pages）
-├── assets/
-├── files/
-│   ├── original/           オリジナル画像
-│   └── medium/             中サイズ画像
-└── iiif/
-    ├── 2/{id}/             IIIF Presentation v3 マニフェスト（パスは互換性のため /2/ のまま）
-    │   ├── manifest.json
-    │   ├── curation.json   （アノテーション付きアイテムのみ。Curation 拡張のため v2 形式を保持）
-    │   └── list/*.json     （AnnotationPage）
-    └── collection/         IIIF Collection
-        ├── collection.json
-        └── annotated.json
+[CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv) のサイトです。
+GitHub Actions で Jekyll を実行し、GitHub Pages に公開します（`.github/workflows/pages.yml`）。
 
-src/data/                   元データ
-├── metadata.xlsx
-└── images.xlsx
+```
+_data/yanesen.csv           目録（1 行 1 記事。複数の見開きにまたがる記事は、見開きを子の行に持つ）
+iiif/annotations/<id>.csv   画像上のアノテーション（canvas, xywh, text）
+iiif/collection/3/          IIIF Collection（静的ファイル）
+iiif/3/<id>/curation.json   IIIF Curation（アノテーション付きの 14 件）
+files/original/, medium/    画像
+src/data/*.xlsx             元の Excel（変換は src/scripts/xlsx_to_cb_csv.py で 1 回だけ行った）
+```
+
+IIIF マニフェスト（`/iiif/3/<id>/manifest.json`）は、ビルドのときに gem
+[static_iiif](https://github.com/nakamura196/static_iiif) が目録とアノテーションから作ります（`_config.yml` の `static_iiif:`）。
+
+```
+bundle install
+bundle exec jekyll serve
 ```
 
 ## クレジット

@@ -1,0 +1,9 @@
+field,index,display
+title,true,true
+issue,true,true
+creator,true,true
+subject,true,true
+description,true,true
+references,true,false
+note,true,false
+image_thumb,false,false
