@@ -35,13 +35,15 @@ OLD = "2780558fe8"  # the last commit of the site before CollectionBuilder
 OUT = ROOT / "_data/yanesen.csv"
 ANNOTATIONS = ROOT / "iiif/annotations"
 ISSUES = ROOT / "src/data/issues.csv"  # publication date of each issue, read from the colophons
+PLACES = ROOT / "src/data/places.csv"  # representative points of towns and landmarks
+ARTICLE_PLACES = ROOT / "src/data/article-places.csv"  # place of each article, read from its title
 
 BASE = "https://nakamura196.github.io/lda"
 RIGHTS = "CC BY 4.0"
 
 COLUMNS = [
     "objectid", "parentid", "title", "issue", "date", "creator", "subject",
-    "description", "references", "note", "latitude", "longitude",
+    "description", "references", "note", "location", "latitude", "longitude",
     "rights", "rightsstatement", "viewing_direction",
     "display_template", "object_location", "image_small", "image_thumb",
     "image_alt_text", "format",
@@ -99,6 +101,11 @@ def main():
     ix["_start"], ix["_end"] = 28, 29
 
     dates = {int(r["issue"]): r["date"] for r in csv.DictReader(ISSUES.open(encoding="utf-8"))}
+    points = {r["place"]: (r["latitude"], r["longitude"])
+              for r in csv.DictReader(PLACES.open(encoding="utf-8"))}
+    # articles without coordinates in the sheet are placed at the town or landmark in their title
+    located = {r["objectid"]: r["place"]
+               for r in csv.DictReader(ARTICLE_PLACES.open(encoding="utf-8")) if r["place"]}
 
     annotated = [i["id"].split("/")[-2]
                  for i in json.loads(old_file("iiif/collection/3/annotated.json"))["items"]]
@@ -115,9 +122,12 @@ def main():
         if expected and [Path(p).name for p in images] != expected:
             diffs.append((item_id, expected, [Path(p).name for p in images]))
 
-        lat = lon = ""
+        lat = lon = location = ""
         if r[ix["spatial"]]:
             lat, lon = (s.strip() for s in str(r[ix["spatial"]]).split(","))
+        elif item_id in located:
+            location = located[item_id]
+            lat, lon = points[location]
 
         parent = {
             "objectid": item_id,
@@ -129,6 +139,7 @@ def main():
             "description": r[ix["description"]] or "",
             "references": split_list(r[ix["references"]]),
             "note": r[ix["備考"]] or "",
+            "location": location,
             "latitude": lat,
             "longitude": lon,
             "rights": RIGHTS,

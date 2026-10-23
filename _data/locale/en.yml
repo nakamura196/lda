@@ -20,6 +20,7 @@ config_labels:
     description: Contents
     references: References
     note: Type / note
+    location: Place
     rights: Rights
     rightsstatement: License
   config-browse:
@@ -27,11 +28,13 @@ config_labels:
     creator: { display_name: Author / artist, facet_name: Author / artist }
     note: { facet_name: Type / note }
     subject: { display_name: Keywords, facet_name: Keywords }
+    location: { display_name: Place, facet_name: Place }
   config-map:
     issue: Issue
     date: Published
     creator: Author / artist
     subject: Keywords
+    location: Place
   config-table:
     title: Title
     issue: Issue

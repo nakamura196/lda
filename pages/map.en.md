@@ -4,3 +4,5 @@ title: Map
 permalink: /map.html
 lang: en
 ---
+
+Apart from the few articles with known coordinates, articles are placed at the town or landmark named in their title. Town-level points show the approximate location of the town, not the exact place in the article.

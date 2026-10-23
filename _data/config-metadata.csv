@@ -7,5 +7,6 @@ subject,キーワード,true,,DCTERMS.subject,keywords
 description,内容,,,DCTERMS.description,description
 references,参照文献,,,DCTERMS.references,
 note,種別・備考,true,,,
+location,位置,true,,DCTERMS.spatial,contentLocation
 rights,利用条件,,,DCTERMS.rights,license
 rightsstatement,ライセンス,,true,,
