@@ -19,6 +19,15 @@ source-code: https://github.com/nakamura196/lda
 #
 # language of the site (html lang attribute, UI strings in _data/locale/<lang>.yml)
 lang: ja
+# interface languages built from this repository, one build per language
+# (the English build adds _config.en.yml). Used for the language switch link.
+languages:
+  - code: ja
+    label: 日本語
+    baseurl: /lda
+  - code: en
+    label: English
+    baseurl: /lda/en
 # title of site appears in banner
 title: 地域文化資源デジタルアーカイブ
 # tagline, a short phrase that will appear throughout the site in the top banner

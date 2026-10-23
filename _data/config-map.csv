@@ -1,5 +1,5 @@
 field,display_name,search
-date,Date,true
-creator,Creator,true
-subject,Subjects,true
-location,Location,true
+issue,号,true
+date,刊行日,true
+creator,執筆・作画,true
+subject,キーワード,true

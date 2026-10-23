@@ -1,0 +1,21 @@
+# English interface of the same site (provisional). Build with:
+#   bundle exec jekyll build --config _config.yml,_config.en.yml -d _site/en
+# Only the keys that differ from _config.yml. Labels from _data/config-*.csv are
+# overridden in _data/locale/en.yml (config_labels); pages/*.en.md replace their
+# Japanese version (see _plugins/cb_i18n.rb). The records themselves stay in Japanese.
+# Images, manifests and collections are those of the Japanese build: the workflow
+# removes files/ and iiif/ from this build and points its links at /lda/ (see
+# .github/workflows/pages.yml), so every IIIF resource keeps one URL.
+lang: en
+baseurl: /lda/en
+title: Local Cultural Resources Digital Archive
+tagline: "The community magazine Yanaka, Nezu, Sendagi, issues 1–10"
+description: "446 articles from issues 1–10 of the community magazine Yanaka, Nezu, Sendagi (Yanesen), founded by Yanesen Kobo in 1984, with images, metadata and annotations."
+keywords: Yanaka; Nezu; Sendagi; Yanesen; community magazine; Tokyo; IIIF
+
+# The English item pages open the manifests of the Japanese build, so that each
+# manifest keeps one URL: this build writes none
+static_iiif:
+  manifests:
+    base_url: /lda
+    write: false

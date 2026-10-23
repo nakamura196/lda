@@ -6,42 +6,37 @@ config_labels:
     /: Home
     /browse.html: Browse
     /search/: Search
+    /subjects.html: Keywords
     /timeline.html: Timeline
+    /map.html: Map
     /data.html: Data
     /about.html: About
   config-metadata:
     title: Title
-    title_kana: Reading
-    alternative: Alternative title
-    creator: Creator
-    date: Date (as printed)
-    year: Year
-    era: Period
-    type: Type
-    extent: Extent
-    pages: Images
-    description: Description
-    note: Note
-    call_number: Call number
-    collection: Collection
-    holding: Holding library
+    issue: Issue
+    date: Published
+    creator: Author / artist
+    subject: Keywords
+    description: Contents
+    references: References
+    note: Type / note
     rights: Rights
     rightsstatement: License
-    source: UTokyo Digital Archives
-    manifest: IIIF manifest
   config-browse:
-    year: { display_name: Year, sort_name: Year }
-    creator: Creator
-    era: { facet_name: Period, sort_name: Period }
-    type: { facet_name: Type }
-    title_kana: { display_name: Reading, sort_name: Reading (gojūon order) }
-    description: Description
+    issue: { facet_name: Issue }
+    creator: { display_name: Author / artist, facet_name: Author / artist }
+    note: { facet_name: Type / note }
+    subject: { display_name: Keywords, facet_name: Keywords }
+  config-map:
+    issue: Issue
+    date: Published
+    creator: Author / artist
+    subject: Keywords
   config-table:
     title: Title
-    creator: Creator
-    year: Year
-    era: Period
-    type: Type
+    issue: Issue
+    creator: Author / artist
+    note: Type / note
 template_labels:
   iiif: IIIF image
 color_mode_toggle: Switch between light and dark

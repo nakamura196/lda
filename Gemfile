@@ -24,5 +24,5 @@ group :jekyll_plugins do
   # Gemfile.lock is not committed in this repo, so allow patch releases only
   gem 'cjk_index', '~> 0.1.0', require: 'cjk_index/jekyll'
   # static IIIF: info.json and the item manifests at build time (see static_iiif: in _config.yml)
-  gem 'static_iiif', git: 'https://github.com/nakamura196/static_iiif.git', ref: '7dd1dff828bd3ef08d97f03ad1ca66d9d5137971', require: 'static_iiif/jekyll'
+  gem 'static_iiif', git: 'https://github.com/nakamura196/static_iiif.git', ref: '1389e2bb44b8841f4a725fb3ceeb9e3b382bf9ca', require: 'static_iiif/jekyll'
 end

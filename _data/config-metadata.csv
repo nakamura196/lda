@@ -1,6 +1,7 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,記事名,,,DCTERMS.title,headline
 issue,号,true,,DCTERMS.isPartOf,isPartOf
+date,刊行日,,,DCTERMS.date,datePublished
 creator,執筆・作画,true,,DCTERMS.creator,creator
 subject,キーワード,true,,DCTERMS.subject,keywords
 description,内容,,,DCTERMS.description,description

@@ -34,12 +34,13 @@ XLSX = ROOT / "src/data/metadata.xlsx"
 OLD = "2780558fe8"  # the last commit of the site before CollectionBuilder
 OUT = ROOT / "_data/yanesen.csv"
 ANNOTATIONS = ROOT / "iiif/annotations"
+ISSUES = ROOT / "src/data/issues.csv"  # publication date of each issue, read from the colophons
 
 BASE = "https://nakamura196.github.io/lda"
 RIGHTS = "CC BY 4.0"
 
 COLUMNS = [
-    "objectid", "parentid", "title", "issue", "creator", "subject",
+    "objectid", "parentid", "title", "issue", "date", "creator", "subject",
     "description", "references", "note", "latitude", "longitude",
     "rights", "rightsstatement", "viewing_direction",
     "display_template", "object_location", "image_small", "image_thumb",
@@ -74,8 +75,9 @@ def canvases(item_id):
     return paths
 
 
-def thumb(original):
-    return original.replace("/files/original/", "/files/medium/")
+def small(original):
+    """The 800px copy made by src/scripts/make_small.zsh (files/medium is 200px, kept for old links)."""
+    return original.replace("/files/original/", "/files/small/")
 
 
 def excel_range(row, ix):
@@ -95,6 +97,8 @@ def main():
     ix = {k: i for i, k in enumerate(header) if k}
     # unnamed columns AC, AD: first and last spread of the article
     ix["_start"], ix["_end"] = 28, 29
+
+    dates = {int(r["issue"]): r["date"] for r in csv.DictReader(ISSUES.open(encoding="utf-8"))}
 
     annotated = [i["id"].split("/")[-2]
                  for i in json.loads(old_file("iiif/collection/3/annotated.json"))["items"]]
@@ -119,6 +123,7 @@ def main():
             "objectid": item_id,
             "title": r[ix["title"]],
             "issue": f"第{issue}号",
+            "date": dates[issue],
             "creator": split_list(r[ix["creator"]]),
             "subject": split_list(r[ix["subject"]]),
             "description": r[ix["description"]] or "",
@@ -129,7 +134,8 @@ def main():
             "rights": RIGHTS,
             "rightsstatement": r[ix["license"]],
             "viewing_direction": r[ix["viewingDirection"]],
-            "image_thumb": thumb(images[0]),
+            "image_small": small(images[0]),
+            "image_thumb": small(images[0]),
         }
         if len(images) == 1:
             parent.update(display_template="iiif", object_location=images[0],
@@ -150,7 +156,8 @@ def main():
                 "rightsstatement": r[ix["license"]],
                 "display_template": "image",
                 "object_location": path,
-                "image_thumb": thumb(path),
+                "image_small": small(path),
+                "image_thumb": small(path),
                 "image_alt_text": f"{r[ix['title']]} [{n}]",
                 "format": "image/jpeg",
             })

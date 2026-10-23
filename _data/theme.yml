@@ -38,7 +38,7 @@ default-sort-field: objectid # magazine order: issue, then position in the issue
 # see _data/metadata-config.csv to define the metadata fields that will display.
 browse-buttons: true # true / false, adds previous/next arrows to items, but increases build time
 item-template-label: false # true / false, show the display template (e.g. "IIIF image") above the item title
-citation-fields: issue # fields separated by ; added to the citation after the title, e.g. issue;date
+citation-fields: issue;date # fields separated by ; added to the citation after the title, e.g. issue;date
 
 ##########
 # SUBJECTS PAGE
@@ -72,8 +72,8 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # TIMELINE PAGE
 #
 # set either year-navigation or year-nav-increment to generate a year nav dropdown
-timeline-field: # no dates in this collection
-year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
+timeline-field: date # 刊行日（奥付から読んだ src/data/issues.csv）
+year-navigation: "1984;1985;1986" # manually set years to appear in dropdown nav
 year-nav-increment: 10 # set increments to auto gen nav years
 
 ##########
@@ -81,7 +81,7 @@ year-nav-increment: 10 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,issue,creator,subject,description,references,note,rights,rightsstatement"
+metadata-export-fields: "title,issue,date,creator,subject,description,references,note,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "issue,note,creator"
 
