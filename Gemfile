@@ -26,3 +26,6 @@ group :jekyll_plugins do
   # static IIIF: info.json and the item manifests at build time (see static_iiif: in _config.yml)
   gem 'static_iiif', git: 'https://github.com/nakamura196/static_iiif.git', ref: '1389e2bb44b8841f4a725fb3ceeb9e3b382bf9ca', require: 'static_iiif/jekyll'
 end
+
+# modern / museum looks and the light/dark switch (see the theme's README)
+gem 'cb-museum-theme', git: 'https://github.com/nakamura196/cb-museum-theme.git', ref: '17be794b00e4b4bcbdfb3a67c65c24652c4695b5'
