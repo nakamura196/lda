@@ -1,0 +1,25 @@
+{
+  "width": 3680,
+  "height": 2456,
+  "sizes": [
+    {
+      "width": 256,
+      "height": 171
+    },
+    {
+      "width": 1024,
+      "height": 683
+    }
+  ],
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ]
+}
