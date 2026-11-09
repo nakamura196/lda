@@ -14,6 +14,8 @@ comparison-start: 65
 comparison-label-field: date
 # comparison-ratio: Bootstrap ratio for the comparison area when using "slider" display, "21x9", "16x9", "4x3", or "1x1"
 comparison-ratio: 16x9
+# still needs Bootstrap's script (see _includes/foot.html)
+bootstrap-js: true
 ---
 {% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %}
 {%- assign child1 = children[0] -%}

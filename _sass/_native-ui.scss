@@ -1,0 +1,77 @@
+// Bootstrap's look for parts that work without its script.
+// Menus, contents and transcripts are <details>; pop-ups are <dialog>.
+
+summary.btn,
+summary.navbar-toggler,
+summary.nav-link,
+.accordion-item > summary {
+    list-style: none;
+    cursor: pointer;
+    &::-webkit-details-marker { display: none; }
+}
+
+/* ---------- menu bar: folds into the button on narrow screens ---------- */
+summary.navbar-toggler { width: fit-content; }
+
+/* the button and the menu stay direct parts of the bar, as they were before */
+@supports selector(::details-content) {
+    .navbar-details { display: contents; }
+    .navbar-details::details-content { flex: 0 0 100%; }
+}
+@supports not selector(::details-content) {
+    .navbar-details { flex: 0 0 100%; }
+}
+
+@each $name, $width in (lg: 992px, xl: 1200px) {
+    @media (min-width: $width) {
+        /* wide screens always show the menu */
+        @supports selector(::details-content) {
+            .navbar-expand-#{$name} .navbar-details::details-content {
+                flex: 1 1 auto;
+                content-visibility: visible;
+            }
+        }
+        /* a browser that cannot do that keeps the button, so the menu can still be reached */
+        @supports not selector(::details-content) {
+            .navbar-expand-#{$name} summary.navbar-toggler { display: block; }
+        }
+    }
+}
+
+/* ---------- drop-down lists ---------- */
+details.dropdown {
+    > .dropdown-menu {
+        top: 100%;
+        left: 0;
+        margin-top: var(--bs-dropdown-spacer, 0.125rem);
+    }
+    > .dropdown-menu-end {
+        left: auto;
+        right: 0;
+    }
+    &[open] > .dropdown-menu { display: block; }
+}
+
+/* ---------- pop-ups ---------- */
+dialog.modal {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--bs-body-color);
+    max-width: none;
+    max-height: none;
+    &[open] { display: block; }
+    &::backdrop { background: rgba(0, 0, 0, 0.5); }
+}
+html:has(dialog.modal[open]) { overflow: hidden; }
+
+/* ---------- accordion ---------- */
+.accordion-item[open] > summary .accordion-button.collapsed {
+    color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    &::after {
+        background-image: var(--bs-accordion-btn-active-icon);
+        transform: var(--bs-accordion-btn-icon-transform);
+    }
+}

@@ -1,13 +1,13 @@
 {%- assign t = site.data.locale[site.lang] -%}
-<button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#advancedSearchModal">
+<button type="button" class="btn btn-outline-secondary" onclick="openAdvancedSearch()">
   {% if t.advanced_search_title %}{{ t.advanced_search_title }}{% else %}{{ t.advanced_short | default: "Advanced" }}<span class="d-none d-md-inline">{{ t.advanced_short_suffix | default: " Search" }}</span>{% endif %}
 </button>
-<div class="modal fade" id="advancedSearchModal" tabindex="-1">
+<dialog class="modal" id="advancedSearchModal">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <h1 class="modal-title h4" id="advancedSearchModalLabel">{{ t.advanced_search_title | default: "Advanced Search" }}</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{ t.close | default: "Close" }}"></button>
+        <button type="button" class="btn-close" command="close" commandfor="advancedSearchModal" aria-label="{{ t.close | default: "Close" }}"></button>
       </div>
       <div class="modal-body">
         <form id="advancedSearchForm">
@@ -26,12 +26,12 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">{{ t.close | default: "Close" }}</button>
+        <button type="button" class="btn btn-secondary" command="close" commandfor="advancedSearchModal">{{ t.close | default: "Close" }}</button>
         <button type="button" class="btn btn-primary" onclick="submitAdvancedSearch()">{{ t.search | default: "Search" }}</button>
       </div>
     </div>
   </div>
-</div>
+</dialog>
 
 <!-- Template for search row -->
 <template id="searchRowTemplate">
