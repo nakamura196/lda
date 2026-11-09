@@ -6,11 +6,11 @@
     If you are using an external manifest url, you may encounter CORS policy error if the server hosting the manifest is not set up correctly--one workaround is to download the json file, add to your "objects" folder, and use a relative link, e.g. "objects/book-manifest1.json". You do not need the images, just the manifest file!
 
 {% endcomment %}
-<!-- add IIIF Universal Viewer assets from CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/universalviewer@4.4.4/dist/uv.css"/>
-<script src="https://cdn.jsdelivr.net/npm/universalviewer@4.4.4/dist/umd/UV.js"></script>
+<!-- add IIIF Universal Viewer assets (4.4.4, kept in this repository: see assets/lib/README.md) -->
+<link rel="stylesheet" href="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/universalviewer/uv.css"/>
+<script src="{{ site.lib-assets | default: '/assets/lib' | relative_url }}/universalviewer/umd/UV.js"></script>
 <!-- add div for viewer -->
-<div class="uv" id="uv" style="width: 100%; height: 668px;"></div>
+<div class="uv needs-js" id="uv" style="width: 100%; height: 668px;"></div>
 <script>
     // initialize Universal Viewer
     var uvOptions = {

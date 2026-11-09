@@ -46,7 +46,7 @@
     </div>
 
     <div class="col-md-12 text-center pt-3 pb-1">
-        <p class="text-white">{{ t.last_updated | default: "Last updated" }} {{ site.time | date: '%Y' }}</p>
+        <p class="text-white">{% if site.build_commit %}{{ t.version | default: "Version" }} <a class="text-white" href="{{ site.source-code }}/commit/{{ site.build_commit }}">{{ site.build_commit | slice: 0, 7 }}</a> · {% endif %}{{ t.build_date | default: "Built" }} {{ site.time | date: '%Y-%m-%d' }}</p>
     </div>
 
 </footer>

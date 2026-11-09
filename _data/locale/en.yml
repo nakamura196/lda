@@ -45,3 +45,8 @@ template_labels:
 color_mode_toggle: Switch between light and dark
 copy_manifest_url: Copy manifest URL
 copied: Copied
+version: Version
+build_date: Built
+noscript_images: The image viewer needs JavaScript. Select an image to open it at full size.
+noscript_search: Search needs JavaScript.
+noscript_browse_link: See the list of all items, by issue

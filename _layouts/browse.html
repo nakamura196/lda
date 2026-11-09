@@ -8,9 +8,9 @@ custom-foot: js/browse-js.html
 
 <div class="row mb-2">
     <div class="col-7 col-lg-9">{{ content }}</div>
-    <div class="col-5 col-lg-3 text-end text-lg-start">{% if site.data.theme.advanced-search == true %}{% include advanced-search-modal.html %}{% endif %}</div>
+    <div class="col-5 col-lg-3 text-end text-lg-start needs-js">{% if site.data.theme.advanced-search == true %}{% include advanced-search-modal.html %}{% endif %}</div>
 </div>
-<div class="row mb-3 justify-content-center">
+<div class="row mb-3 justify-content-center needs-js">
     <div class="col-lg-8 text-center">
         <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
             <div class="input-group input-group-lg">
@@ -85,9 +85,23 @@ custom-foot: js/browse-js.html
     </div>
 </div>
 
-<div id="loadingIcon" class="text-center">
+<div id="loadingIcon" class="text-center needs-js">
     <div class="spinner-border text-dark" role="status"><span class="visually-hidden">{{ t.loading | default: "Loading..." }}</span></div>
 </div>
 
 <div class="row" id="browseItems"></div>
 <p id="browseEnd" class="browse-end d-none"></p>
+
+{%- comment -%} The whole list as plain links, for readers without JavaScript. With JavaScript the cards above are used instead. {%- endcomment %}
+<noscript>
+{%- assign list_items = site.data[site.metadata] | where_exp: 'item','item.objectid and item.parentid == nil' -%}
+{%- assign issues = list_items | group_by: 'issue' -%}
+{% for issue in issues %}
+<h3 class="mt-4" id="{{ issue.name | escape }}">{{ issue.name | escape }}</h3>
+<ul>
+{%- for item in issue.items %}
+<li><a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}">{{ item.title | strip | escape }}</a></li>
+{%- endfor %}
+</ul>
+{%- endfor %}
+</noscript>

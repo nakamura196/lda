@@ -7,3 +7,6 @@ If you are using the theme for another purpose, please review the licenses to en
 
 They are included in this directory to ensure CollectionBuilder projects can be self-contained and could be run with out connections to external dependencies or an internet connection. 
 
+## universalviewer
+
+Universal Viewer 4.4.4 (MIT, see `universalviewer/LICENSE.txt`), from the npm package `universalviewer@4.4.4`: `dist/uv.css` and `dist/umd/`. The files in `umd/` load each other by relative path, so keep them together.
