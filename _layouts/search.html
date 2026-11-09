@@ -7,14 +7,14 @@ custom-foot: js/lunr-js.html
 {%- assign fields = site.data.config-search | where: 'index',true | map: 'field' -%}
 {% unless site.data.theme.search-cjk == true %}{% comment %} lunr query operators do not apply to the CJK search {% endcomment %}
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-primary float-end" data-bs-toggle="modal" data-bs-target="#operators">{{ t.search_options | default: "Search Options" }}</button>
+<button type="button" class="btn btn-outline-primary float-end" command="show-modal" commandfor="operators">{{ t.search_options | default: "Search Options" }}</button>
 <!-- Modal -->
-<div class="modal fade" id="operators" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+<dialog class="modal" id="operators" aria-labelledby="modalLabel">
+    <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title h4" id="modalLabel">{{ t.search_options | default: "Search Options" }}</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{ t.close | default: "Close" }}"></button>
+                <button type="button" class="btn-close" command="close" commandfor="operators" aria-label="{{ t.close | default: "Close" }}"></button>
             </div>
             <div class="modal-body">
                 <p>{% if t.search_help_intro %}{{ t.search_help_intro }}{% else %}These advanced options can be added to your query in the search box to refine your results:{% endif %}</p> 
@@ -27,7 +27,7 @@ custom-foot: js/lunr-js.html
             </div>
         </div>
     </div>
-</div>
+</dialog>
 {% endunless %}
 
 {{ content }}

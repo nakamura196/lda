@@ -668,8 +668,7 @@ function submitAdvancedSearch(event) {
     
     // Close modal
     try {
-        const modal = bootstrap.Modal.getInstance(document.getElementById('advancedSearchModal'));
-        modal?.hide();
+        document.getElementById('advancedSearchModal').close();
     } catch (e) {
         console.error('Could not close modal:', e);
     }
@@ -751,7 +750,7 @@ function displayActiveFilters(searchCriteria) {
         {{ t.add_field | default: "Add Field" }}
     `;
     addButton.addEventListener('click', () => {
-        new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+        openAdvancedSearch();
     });
     
     container.appendChild(addButton);
@@ -944,7 +943,7 @@ function setupEventHandlers() {
         
         if (field === 'advanced') {
             e.target.value = 'all';
-            new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+            openAdvancedSearch();
             return;
         }
         
@@ -960,7 +959,7 @@ function setupEventHandlers() {
             const selectedField = document.getElementById('selectedField');
             
             if (field === 'advanced') {
-                new bootstrap.Modal(document.getElementById('advancedSearchModal')).show();
+                openAdvancedSearch();
                 return;
             }
             
@@ -1030,30 +1029,30 @@ function setupEventHandlers() {
         });
     });
     
-    // Advanced search modal handler
-    const advancedSearchModal = document.getElementById('advancedSearchModal');
-    if (advancedSearchModal) {
-        advancedSearchModal.addEventListener('show.bs.modal', function() {
-            // Reflect hash-based search in modal
-            if (window.location.hash && !window.location.search) {
-                const hash = decodeURIComponent(location.hash.substr(1));
-                if (!hash) return;
-                
-                let field = 'all';
-                let query = hash;
-                
-                if (hash.includes(":")) {
-                    const [potentialField, hashQuery] = hash.split(":");
-                    if (validFields.includes(potentialField)) {
-                        field = potentialField;
-                        query = hashQuery;
-                    }
+    // Open the advanced search dialog, showing the search already in the URL
+    window.openAdvancedSearch = function() {
+        const dialog = document.getElementById('advancedSearchModal');
+        if (!dialog) return;
+        // Reflect hash-based search in modal
+        if (window.location.hash && !window.location.search) {
+            const hash = decodeURIComponent(location.hash.substr(1));
+            if (!hash) { dialog.showModal(); return; }
+            
+            let field = 'all';
+            let query = hash;
+            
+            if (hash.includes(":")) {
+                const [potentialField, hashQuery] = hash.split(":");
+                if (validFields.includes(potentialField)) {
+                    field = potentialField;
+                    query = hashQuery;
                 }
-                
-                updateAdvancedSearchModal([{boolean: 'AND', field: field, value: query}]);
             }
-        });
-    }
+            
+            updateAdvancedSearchModal([{boolean: 'AND', field: field, value: query}]);
+        }
+        dialog.showModal();
+    };
 }
 </script>
 {% endunless %}

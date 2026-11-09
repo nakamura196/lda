@@ -10,7 +10,6 @@
 
 {%- endcomment -%}
 <div class="btn-group my-2" role="group" aria-label="{{ t.item_options | default: "Item options" }}">
-    {% if child.object_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript{{ child.objectid }}" aria-expanded="false" aria-controls="collapseTranscript{{ child.objectid }}">{{ t.view_transcript | default: "View Transcript" }}</button>{% endif %}
     {% if child.date %}{%- capture year -%}{% if child.date contains "-" %}{{ child.date | split: "-" | first }}{% elsif child.date contains "/" %}{{ child.date | split: "/" | last }}{% else %}{{ child.date }}{% endif %}{%- endcapture -%}
     <a href="{{ year | strip | prepend: '/timeline.html#y' | relative_url }}" class="btn btn-outline-primary">{{ t.view_on_timeline | default: "View on Timeline" }}</a>{% endif %}
     {% if child.latitude and child.longitude %}
@@ -20,7 +19,8 @@
     </a>{% endif %}
 </div>
 {% if child.object_transcript %}
-<div class="collapse mt-3" id="collapseTranscript{{ child.objectid }}">
+<details class="mt-3" id="collapseTranscript{{ child.objectid }}">
+    <summary class="btn btn-outline-primary">{{ t.view_transcript | default: "View Transcript" }}</summary>
     <div class="card card-body text-start">
         {% assign transcript_type = child.object_transcript | slice: 0,1 %}
         {% if transcript_type == '/' %}
@@ -31,5 +31,5 @@
         {{ child.object_transcript | markdownify }}
         {% endif %}
     </div>
-</div>
+</details>
 {% endif %}

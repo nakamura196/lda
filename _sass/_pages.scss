@@ -163,7 +163,9 @@ $toc-a-color: #191919 !default;
     background-color: var(--bs-body-bg);
 }
 #about-toc-title {
-    button { 
+    list-style: none;
+    &::-webkit-details-marker { display: none; }
+    .btn { 
         width: 100%;
         background-color: #dedede;
     }
@@ -249,7 +251,11 @@ $toc-a-color: #191919 !default;
         position: sticky;
         top: 0;
     }
-    #about-toc-title { display: none; }
+    /* wide screens always show the contents. A browser without ::details-content keeps the button */
+    @supports selector(::details-content) {
+        #about-toc-title { display: none; }
+        #about-toc::details-content { content-visibility: visible; }
+    }
     #about-toc-list { 
         display: block; 
         padding: 2rem 0 2rem 1rem;

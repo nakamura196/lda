@@ -24,6 +24,9 @@ $theme-link-color: {{ site.data.theme.link-color | default: '""' }};
   $toc-a-color: {{ site.data.theme.text-color | default: '#191919' }}
 ); 
 
+/* details and dialog in place of Bootstrap's script */
+@forward "native-ui";
+
 /* theme colors pulled from config-theme-colors */
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %}
 {% if btns != empty %}

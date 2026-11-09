@@ -7,14 +7,14 @@
 {%- endcomment -%}
 
 {%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
-<button type="button" class="btn btn-primary btn-lg float-md-end" data-bs-toggle="modal" data-bs-target="#dataModal">{{ t.download_data | default: "Download Data" }}</button>
+<button type="button" class="btn btn-primary btn-lg float-md-end" command="show-modal" commandfor="dataModal">{{ t.download_data | default: "Download Data" }}</button>
 <!-- Modal -->
-<div class="modal fade" id="dataModal" tabindex="-1" role="dialog" aria-labelledby="dataModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+<dialog class="modal" id="dataModal" aria-labelledby="dataModalLabel">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title" id="dataModalLabel">{{ t.collection_data | default: "Collection Data" }}</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{{ t.close | default: "Close" }}"></button>
+                <button type="button" class="btn-close" command="close" commandfor="dataModal" aria-label="{{ t.close | default: "Close" }}"></button>
             </div>
             <div class="modal-body">
 
@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-</div>
+</dialog>
 
 <script type="application/ld+json">
 {

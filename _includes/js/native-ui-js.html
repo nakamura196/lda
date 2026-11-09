@@ -1,0 +1,31 @@
+<script>
+/* Conveniences for the details and dialog parts. Everything still opens and closes without this script. */
+(function () {
+    /* buttons that open a dialog, in browsers too old to do it by themselves */
+    if (!('commandForElement' in HTMLButtonElement.prototype)) {
+        document.addEventListener('click', function (e) {
+            var button = e.target.closest('button[commandfor]');
+            var dialog = button && document.getElementById(button.getAttribute('commandfor'));
+            if (!dialog) return;
+            if (button.getAttribute('command') === 'show-modal') dialog.showModal();
+            if (button.getAttribute('command') === 'close') dialog.close();
+        });
+    }
+    function openDropdowns() { return document.querySelectorAll('details.dropdown[open]'); }
+    document.addEventListener('click', function (e) {
+        /* a click on the dimmed area closes a dialog, unless it holds media */
+        if (e.target.matches('dialog.modal:not([data-static])')) e.target.close();
+        /* a click outside a list, or on one of its items, closes the list */
+        openDropdowns().forEach(function (d) {
+            if (!d.contains(e.target) || e.target.closest('.dropdown-item')) d.open = false;
+        });
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') return;
+        openDropdowns().forEach(function (d) {
+            d.open = false;
+            d.querySelector('summary').focus();
+        });
+    });
+})();
+</script>

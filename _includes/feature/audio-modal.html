@@ -44,7 +44,7 @@
     <div class="card-body text-center">
         <{{ include.heading_level | default: 'h2' | strip }} class="card-title h2">{{ audio_title }}</{{ include.heading_level | default: 'h2' | strip }}>
         <p class="card-text">{{ audio_caption }}</p>
-        <button class="btn btn-sm btn-primary stretched-link" type="button" data-bs-toggle="modal" data-bs-target="#{{ includeid }}Modal">
+        <button class="btn btn-sm btn-primary stretched-link" type="button" command="show-modal" commandfor="{{ includeid }}Modal">
             Listen to Audio
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16">
                 <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
@@ -53,12 +53,12 @@
         </button>
     </div>
 </div>
-<div class="modal fade" id="{{ includeid }}Modal" tabindex="-1" aria-labelledby="{{ includeid }}ModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+<dialog class="modal" data-static id="{{ includeid }}Modal" aria-labelledby="{{ includeid }}ModalLabel" onclose="document.querySelector('#{{ includeid }}ModalAudio').pause();">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h1 class="modal-title fs-5" id="{{ includeid }}ModalLabel">{{ audio_title }}</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="document.querySelector('#{{ includeid }}ModalAudio').pause();"></button>
+                <button type="button" class="btn-close" command="close" commandfor="{{ includeid }}Modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <p class="text-center my-3">
@@ -74,7 +74,8 @@
             </div>
             <div class="modal-footer">
                 {% if audio_transcript != '' %}
-                <div class="collapse mt-3 w-100" id="collapseTranscript{{ includeid }}">
+                <details class="mb-2 w-100" id="collapseTranscript{{ includeid }}">
+                    <summary class="btn btn-outline-primary">View Transcript</summary>
                     <div class="card card-body text-start">
                         {% assign transcript_type = audio_transcript | slice: 0,1 %}
                         {% if transcript_type == '/' %}
@@ -85,13 +86,12 @@
                         {{ audio_transcript | markdownify }}
                         {% endif %}
                     </div>
-                </div>
-                <button class="btn btn-outline-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript{{ includeid }}" aria-expanded="false" aria-controls="collapseTranscript{{ includeid }}">View Transcript</button>
+                </details>
                 {% endif %}
                 {% unless include.objectid contains '/' %}
                 <a href="{{ audio_link }}" class="btn btn-outline-dark m-2">Visit Item Page</a>{% endunless %}
-                <button type="button" class="btn btn-dark" data-bs-dismiss="modal" onclick="document.querySelector('#{{ includeid }}ModalAudio').pause();">Close</button>
+                <button type="button" class="btn btn-dark" command="close" commandfor="{{ includeid }}Modal">Close</button>
             </div>
         </div>
     </div>
-</div>
+</dialog>
