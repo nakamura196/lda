@@ -32,7 +32,11 @@ custom-foot: js/lunr-js.html
 
 {{ content }}
 
-<div class="mt-3">
+<noscript>
+    <p class="mt-3">{{ t.noscript_search | default: "Search needs JavaScript." }} <a href="{{ '/browse.html' | relative_url }}">{{ t.noscript_browse_link | default: "See the list of all items, by issue" }}</a></p>
+</noscript>
+
+<div class="mt-3 needs-js">
     <form role="search" id="lunrSearch" onsubmit="lunr_search(); return false;">
         <div class="input-group input-group-lg">
             <input aria-label="{{ t.search_terms | default: "Search terms" }}" id="searchBox" class="form-control" type="text" placeholder="{{ t.search_placeholder | default: "Enter your search term..." }}" >

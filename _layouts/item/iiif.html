@@ -13,6 +13,18 @@ layout: item/item-page-base
 
     {% include item/iiif-manifest-universal-viewer.html manifest=manifest_url %}
 
+    {%- comment -%} Without JavaScript the viewer cannot run: show every spread of the item as a plain image instead. {%- endcomment %}
+    <noscript>
+    {%- assign spreads = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' -%}
+    {%- if spreads.size == 0 -%}{%- assign spreads = site.data[site.metadata] | where: 'objectid', page.objectid -%}{%- endif %}
+    <div class="p-3 text-center">
+        <p>{{ t.noscript_images | default: "The image viewer needs JavaScript. Select an image to open it at full size." }}</p>
+        {%- for spread in spreads %}
+        <p><a href="{{ spread.object_location | relative_url }}"><img src="{{ spread.image_small | relative_url }}" alt="{{ spread.image_alt_text | default: spread.title | escape }}" class="img-fluid" loading="lazy"></a></p>
+        {%- endfor %}
+    </div>
+    </noscript>
+
     <div class="card-body d-flex flex-wrap gap-2 justify-content-center">
         <a class="btn btn-outline-dark" href="{{ manifest_url }}" target="_blank" rel="noopener">
             <img src="https://iiif.io/img/logo-iiif-34x30.png" alt="" width="20" height="18" class="me-1"> {{ t.iiif_manifest | default: "IIIF Manifest" }}
